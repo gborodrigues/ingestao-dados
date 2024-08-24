@@ -1,9 +1,9 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, regexp_replace, upper
-import pyspark.pandas as ps
+#import pyspark.pandas as ps
 import os
 import mysql.connector
-import pandas as pd 
+#import pandas as pd 
 import re
 
 # Configurações de banco de dados
@@ -15,7 +15,7 @@ db_config = {
 }
 
 conn = mysql.connector.connect(**db_config)
-table_name = "tb_banco_ex3_v3"
+table_name = "tb_banco_ex3_sabado"
 
 # Inicializando o SparkSession
 spark = SparkSession.builder \

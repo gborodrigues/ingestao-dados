@@ -13,5 +13,5 @@ docker-compose up --build
 
 Para rodar o código dentro do container rode:
 ```console
-docker-compose exec app python app5.py
+docker-compose exec app python app.py
 ```
