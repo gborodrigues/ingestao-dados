@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  db:
+    image: mysql/mysql-server:5.7
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'Usp2024'
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - 'data:/var/lib/mysql'
+      - 'initial.sql:/docker-entrypoint-initdb.d/initial.sql'
+
+# for WebUI
+  adminer:
+    image: adminer:4.8.1
+    ports:
+      - "8081:8080"
+
+volumes:
+  data:
+  initial.sql:
