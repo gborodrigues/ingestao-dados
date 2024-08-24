@@ -1,0 +1,6 @@
+mysql-connector-python
+pyspark
+dbt-spark
+dbt-external-tables
+dbt-mysql
+dbt-core
