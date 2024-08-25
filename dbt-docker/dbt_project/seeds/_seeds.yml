@@ -1,0 +1,16 @@
+version: 2
+
+seeds:
+  - name: teste
+    schema: parquet
+    description: Customer base stored as csv file
+    columns:
+      - name: Segmento
+        tests:
+          - not_null
+      - name: CNPJ
+        tests:
+          - not_null
+      - name: Nome
+        tests:
+          - not_null

@@ -14,6 +14,8 @@ ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 # Instalar PySpark via pip
 RUN pip3 install pyspark
 
+RUN pip3 install duckdb
+
 # Criar alias para garantir que 'python' aponte para 'python3'
 RUN ln -s /usr/bin/python3 /usr/bin/python
 

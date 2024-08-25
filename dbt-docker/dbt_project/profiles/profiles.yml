@@ -1,0 +1,12 @@
+test_profile:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      host: db
+      user: root
+      password: root
+      port: 3306
+      dbname: ingestao_dados
+      schema: public
+      threads: 1
