@@ -12,7 +12,6 @@ ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
 RUN apt-get install -y libffi-dev
 
-
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 WORKDIR /app
