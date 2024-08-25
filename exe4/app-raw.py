@@ -4,60 +4,62 @@ import os
 import mysql.connector
 import re
 
-# Inicializando o SparkSession
 
 spark = SparkSession.builder \
     .appName("ETL Pipeline") \
     .getOrCreate()
+spark.conf.set("spark.sql.debug.maxToStringFields", 1000)  
 
-spark.conf.set("spark.sql.debug.maxToStringFields", 1000)  # Increase the number as needed
+def read_and_merge_csv_files(directory_path):
 
-def read_csv_files_in_directory(directory_path):
-    files = os.listdir(directory_path)
-    csv_files = [file for file in files if file.endswith(('.csv', '.tsv'))]
-    dataframes = []
-
-    # Definicao de configs para cada diretorio
     settings = {
-        "Bancos": {"sep": "\t", "message": "    Lendo arquivos: {directory_path} -- Filepath {file_path}"},
-        "Empregados": {"sep": "|", "message": "    Lendo arquivos: {directory_path}"},
-        "Reclamacoes": {"sep": ";", "message": "    Lendo arquivos: {directory_path}"},
-        "default": {"sep": ";", "message": "    Lendo arquivos: {directory_path}"}
+        "Bancos": {"sep": "\t", "message": " Lendo arquivos: {directory_path} -- Filepath {file_path}"},
+        "Empregados": {"sep": "|", "message": " Lendo arquivos: {directory_path}"},
+        "Reclamacoes": {"sep": ";", "message": " Lendo arquivos: {directory_path}"},
+        "default": {"sep": ";", "message": " Lendo arquivos: {directory_path}"}
     }
 
+    setting = settings.get(os.path.basename(directory_path), settings["default"])
+
+    csv_files = [f for f in os.listdir(directory_path) if f.endswith(('.csv', '.tsv'))]
+
+    if not csv_files:
+        print(f"No CSV files found in {directory_path}")
+        return spark.createDataFrame([], schema=None)
+
+    merged_df = None
     for csv_file in csv_files:
         file_path = os.path.join(directory_path, csv_file)
-        
-        # Para uso em melhoria futura - Caso nao esteja no dicionario (settings), usar config default
-        setting = settings.get(directory_path, settings["default"])
-
         try:
             print(setting["message"].format(directory_path=directory_path, file_path=file_path))
             df = spark.read.options(sep=setting["sep"], header=True, encoding="ISO-8859-1").csv(file_path)
             print(f"Arquivo Processado: {file_path}")
-            dataframes.append(df)
-
+            
+            if merged_df is None:
+                merged_df = df
+            else:
+                merged_df = merged_df.unionByName(df, allowMissingColumns=True)
         except Exception as file_err:
-            print(f"Error reading file {directory_path}: {file_err}")
+            print(f"Error reading file {file_path}: {file_err}")
 
-    if dataframes:
-        merged_df = dataframes[0]
-        return merged_df
-    else:
-        return spark.createDataFrame([], schema=None)
-       
-        
+    return merged_df if merged_df is not None else spark.createDataFrame([], schema=None)
+
 def create_raw_layer():
     path = 'Dados/raw'
     os.makedirs(path, exist_ok=True)
     directories_paths = ['Bancos', 'Empregados', 'Reclamacoes']
+
     for directory in directories_paths:
         print(f" Info: Creating RAW Layer - PATH: {path} Diretorio: {directory}")
         os.makedirs(f'{path}/{directory}', exist_ok=True)
-
-        dataframe = read_csv_files_in_directory(directory)
-
-        dataframe.write.parquet(f'{path}/{directory}/output.parquet', mode='overwrite')
+        merged_dataframe = read_and_merge_csv_files(directory)
+        if merged_dataframe.rdd.isEmpty():
+            print(f"sem dados")
+        else:
+            output_path = f'{path}/{directory}/output.parquet'
+            merged_dataframe.write.parquet(output_path, mode='overwrite')
+            
+            line_count = spark.read.parquet(output_path).count()
 
 
 if __name__ == "__main__":
