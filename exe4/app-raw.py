@@ -1,11 +1,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, regexp_replace, upper
-#import pyspark.pandas as ps
 import os
 import mysql.connector
-#import pandas as pd 
 import re
-
 
 # Inicializando o SparkSession
 
@@ -40,10 +37,6 @@ def read_csv_files_in_directory(directory_path):
             print(f"Arquivo Processado: {file_path}")
             dataframes.append(df)
 
-            # Exibir o total de registros no DataFrame
-            #total_registros = df.count()
-            #print(f"    Total de registros: {total_registros}")
-
         except Exception as file_err:
             print(f"Error reading file {directory_path}: {file_err}")
 
@@ -52,9 +45,7 @@ def read_csv_files_in_directory(directory_path):
         return merged_df
     else:
         return spark.createDataFrame([], schema=None)
-
-
-        
+       
         
 def create_raw_layer():
     path = 'Dados/raw'
@@ -73,10 +64,6 @@ if __name__ == "__main__":
     try:
         print('Running raw layer...')
         create_raw_layer()
-        #print('Running trusted layer...')
-        #create_trusted_layer()
-        #print('Running delivery layer...')
-        #delivery_layer()
         print('Finished script')
     except KeyboardInterrupt:
         print("Interrupted by user")
