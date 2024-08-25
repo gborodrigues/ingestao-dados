@@ -1,6 +1,7 @@
 services:
   db:
     image: mysql:8.0
+    container_name: mysql-db
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -15,9 +16,12 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - my-network
 
   app:
     build: .
+    container_name: etl-pipeline
     environment:
       DB_HOST: ${DB_HOST}
       DB_DATABASE: ${DB_DATABASE}
@@ -30,6 +34,12 @@ services:
       - "3000:3000"
     volumes:
       - .:/app
+    networks:
+      - my-network
 
 volumes:
   db_data:
+
+networks:
+  my-network:
+    driver: bridge
