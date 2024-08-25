@@ -10,4 +10,4 @@ datawarehouse:
       dbname: "{{ env_var('DB_DATABASE') }}"
       keepalives_idle: 0
       ssl_disabled: True
-      schema: analytics
+      schema: "{{ env_var('DB_DATABASE') }}"
