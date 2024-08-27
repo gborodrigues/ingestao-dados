@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: main
+    database: victor  # If applicable
+    schema: main
+    tables:
+      - name: reclamacoes

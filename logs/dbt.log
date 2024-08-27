@@ -1,0 +1,61 @@
+[0m11:45:40.851683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f82571f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f6957850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f69577c0>]}
+
+
+============================== 11:45:40.857495 | 5a41fca2-87b8-4c59-ae70-1513d30db691 ==============================
+[0m11:45:40.857495 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:45:40.858037 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dazai/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m11:45:40.872032 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/dazai/.dbt')}
+[0m11:45:40.872598 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:45:57.768421 [debug] [MainThread]: Starter project path: /home/dazai/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m11:45:57.774056 [info ] [MainThread]: 
+Your new dbt project "exe4dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:45:57.774607 [info ] [MainThread]: Setting up your profile.
+[0m11:46:00.690893 [info ] [MainThread]: Profile exe4dbt written to /home/dazai/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:46:00.692277 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 19.88785, "process_user_time": 1.024416, "process_kernel_time": 0.147484, "process_mem_max_rss": "108640", "process_in_blocks": "55320", "process_out_blocks": "72"}
+[0m11:46:00.692875 [debug] [MainThread]: Command `dbt init` succeeded at 11:46:00.692786 after 19.89 seconds
+[0m11:46:00.693302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f82571f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f7c63370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f23f697c790>]}
+[0m11:46:00.693725 [debug] [MainThread]: Flushing usage events
+[0m11:52:55.696868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f8a2f2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f8439cc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f70d3b20>]}
+
+
+============================== 11:52:55.702441 | 81ba6d60-577a-4618-a902-e66fa916d410 ==============================
+[0m11:52:55.702441 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:52:55.702981 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/dazai/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:52:55.703549 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/dazai/ingestao-dados/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:52:55.704317 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.05907683, "process_user_time": 1.047, "process_kernel_time": 0.075927, "process_mem_max_rss": "85068", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m11:52:55.704862 [debug] [MainThread]: Command `dbt run` failed at 11:52:55.704778 after 0.06 seconds
+[0m11:52:55.705259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f8a2f2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f777beb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84f70d3b20>]}
+[0m11:52:55.705655 [debug] [MainThread]: Flushing usage events
+[0m17:43:17.732609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c486b370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c42781c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c2f73cd0>]}
+
+
+============================== 17:43:17.739246 | 509ae07b-885f-43b0-b7c5-25ef4e2e8d6e ==============================
+[0m17:43:17.739246 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:43:17.739880 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dazai/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m17:43:17.740475 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/dazai/ingestao-dados/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:43:17.741731 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.058514636, "process_user_time": 1.083202, "process_kernel_time": 0.177233, "process_mem_max_rss": "84540", "process_in_blocks": "40312", "process_out_blocks": "8", "command_success": false}
+[0m17:43:17.742310 [debug] [MainThread]: Command `dbt run` failed at 17:43:17.742220 after 0.06 seconds
+[0m17:43:17.742732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c486b370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c42781c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73e0c3a0e7a0>]}
+[0m17:43:17.743149 [debug] [MainThread]: Flushing usage events
