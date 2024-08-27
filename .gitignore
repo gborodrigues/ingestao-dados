@@ -1,2 +1,3 @@
 exe4/Dados/
 **/logs/
+database.duckdb
