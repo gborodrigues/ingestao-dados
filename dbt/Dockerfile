@@ -22,5 +22,7 @@ COPY . /app
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-CMD ["tail", "-f", "/dev/null"]
+RUN cd exe4dbt
 
+# Run dbt run by default
+CMD ["dbt", "run"]
