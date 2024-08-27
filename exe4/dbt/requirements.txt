@@ -1,0 +1,9 @@
+mysql-connector-python
+pyspark
+dbt-spark
+dbt-mysql
+dbt-core
+duckdb
+dbt-duckdb
+numpy
+pandas
