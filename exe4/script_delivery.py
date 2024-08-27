@@ -1,7 +1,8 @@
 import duckdb
+import os
 
 # Connect to the DuckDB database
-duck_con = duckdb.connect(database=':memory:')
+duck_con = duckdb.connect(database='database.duckdb')
 
 def join_tables():
     dataframes = {}
@@ -17,14 +18,14 @@ def join_tables():
 
     query = f"""
         CREATE OR REPLACE TABLE bancos_reclamacoes_empregados AS
-        SELECT * FROM Bancos
-        JOIN Reclamacoes ON Bancos.campo_limpo = Reclamacoes.campo_limpo
-        JOIN Empregados ON Bancos.campo_limpo = Empregados.campo_limpo
+        SELECT * FROM bancos_clean
+        JOIN reclamacoes_clean ON bancos_clean.campo_limpo = reclamacoes_clean.campo_limpo
+        JOIN empregados_clean ON bancos_clean.campo_limpo = empregados_clean.campo_limpo
     """
     duck_con.execute(query)
     duck_con.execute("""COPY
         (SELECT * FROM bancos_reclamacoes_empregados)
-        TO './datawarehouse/seeds/bancos_reclamacoes_empregados.parquet'
+        TO './Dados/delivery/bancos_reclamacoes_empregados.parquet'
         (FORMAT 'parquet');"""
     )
 
@@ -32,6 +33,8 @@ def join_tables():
 if __name__ == "__main__":
     try:
         print('Running delivery layer...')
+        path = 'Dados/delivery'
+        os.makedirs(path, exist_ok=True)
         join_tables()
         duck_con.close()
         print('Finished script')
