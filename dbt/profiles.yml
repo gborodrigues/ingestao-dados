@@ -1,0 +1,14 @@
+exe4dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'victor.duckdb'
+      # host: "{{ env_var('DB_HOST') }}"
+      # user: "{{ env_var('DB_USER') }}"
+      # password: "{{ env_var('DB_PASSWORD') }}"
+      # port: 3306
+      # dbname: "{{ env_var('DB_DATABASE') }}"
+      # keepalives_idle: 0
+      # ssl_disabled: True
+      # schema: "{{ env_var('DB_DATABASE') }}"
