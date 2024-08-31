@@ -1,3 +1,4 @@
-!raw_function/requirements.txt
+raw_function/*
 !raw_function/script.py
+!raw_function/requirements.txt
 !raw_function/.env
