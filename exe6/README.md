@@ -73,16 +73,20 @@ zip -r9 raw_function.zip raw_function
 
 Para os scripts que serão carregadso para a lambda
 Ex: code-exe6
+```
 aws cloudformation package \
     --template-file raw_layer_template.yaml \
     --s3-bucket <seu bucket S3 - Lembrando que os nomes de S3 são únicos para toda a AWS> \ 
     --output-template-file packaged-template.yaml
+```
 
 #### Deploy 
+```
 aws cloudformation deploy \
     --template-file packaged-template.yaml \
     --stack-name <nome da sua stack - escolha como preferir> \ 
     --capabilities CAPABILITY_IAM
+```
 
 
 #### Debug
