@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  RawLayer:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: raw
+      Handler: script.handler
+      Runtime: python3.12
+      CodeUri: raw_function/
+      MemorySize: 128
+      Role: arn:aws:iam::125892454700:role/LabRole
+      Timeout: 15
+      Environment: 
+        Variables:
+          BUCKET_NAME: dados-exe6
+      Events:
+        MyScheduledEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 12 * * ? *)
