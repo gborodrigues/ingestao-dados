@@ -1,0 +1,16 @@
+raw_function/*
+!raw_function/script.py
+!raw_function/requirements.txt
+!raw_function/.env
+
+trusted_function/*
+!trusted_function/script.py
+!trusted_function/requirements.txt
+!trusted_function/.env
+
+delivery_function/*
+!delivery_function/script.py
+!delivery_function/requirements.txt
+!delivery_function/.env
+
+.zip
