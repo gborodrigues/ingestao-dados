@@ -45,7 +45,7 @@ Resources:
       Runtime: python3.12
       CodeUri: raw_function/ #alterar para a pasta da nova função - Previamente definida pelo passo 2 (raw/delivery/trusted)
       MemorySize: 128
-      Role: arn:aws:iam::125892454700:role/LabRole
+      Role: arn:aws:iam::125892454700:role/LabRole #Va para o IAM, busque por LabRole e troque o valor para o valor especifico da sua account
       Timeout: 15
       Environment: 
         Variables:
@@ -71,6 +71,10 @@ zip -r9 raw_function.zip raw_function
 
 #### Criar buckets s3 para armazenar os código
 
+
+Para criar o S3, pode ser usado o script add-pre-raw-files.py, alterando a variavel bucket_name, para a mesma do do env.
+
+
 Para os scripts que serão carregadso para a lambda
 Ex: code-exe6
 ```
@@ -89,5 +93,14 @@ aws cloudformation deploy \
 ```
 
 
+#### Trusted Layer
+
+Mesmos passos da raw layer, certifique-se de que as pastas foram criadas e que vc esta apontando para a pasta certa.
+
 #### Debug
 Acompanhar o serviço pela aplicação cloud formation 
+
+
+
+
+

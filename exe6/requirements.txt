@@ -1,3 +1,5 @@
 mysql_connector
 numpy
 pandas
+pyarrow 
+fastparquet

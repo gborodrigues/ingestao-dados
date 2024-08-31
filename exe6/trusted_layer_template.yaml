@@ -4,10 +4,10 @@ Resources:
   RawLayer:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: raw
+      FunctionName: trusted
       Handler: script.handler
       Runtime: python3.12
-      CodeUri: raw_function/
+      CodeUri: trusted_function/
       MemorySize: 128
       Role: arn:aws:iam::924403880720:role/LabRole
       Timeout: 15

@@ -41,10 +41,10 @@ def create_raw_layer():
         # Salva o CSV na camada raw dentro do bucket S3
         output_buffer = BytesIO()
         dataframe.to_csv(output_buffer, sep=';', index=False, encoding='latin-1')
-        s3_client.put_object(Bucket=bucket_name, Key=f'raw/{directory}output.csv', Body=output_buffer.getvalue())
+        directory_key = directory.rstrip('/')
+        s3_client.put_object(Bucket=bucket_name, Key=f'raw/{directory_key}/output.csv', Body=output_buffer.getvalue())
 
-
-def handler(event, _):
+def handler(event, _):  
     try:
         print(event)
         print('Running raw layer...')
