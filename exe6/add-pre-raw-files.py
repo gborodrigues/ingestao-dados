@@ -22,7 +22,7 @@ def upload_folder(s3_client, bucket_name, folder_path, s3_folder):
 
 def main():
 
-    bucket_name = "dados-exe6-trusted"
+    bucket_name = "dados-exe6-v1"
     
     s3_client = boto3.client('s3')
 
@@ -41,7 +41,7 @@ def main():
         if os.path.exists(local_folder_path):
             upload_folder(s3_client, bucket_name, local_folder_path, subfolder)
         else:
-            print(f"Folder {folder} not found :P")
+            print(f"Folder {subfolders} not found :P")
 
 if __name__ == "__main__":
     main()

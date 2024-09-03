@@ -4,16 +4,16 @@ Resources:
   RawLayer:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: raw
+      FunctionName: delivery
       Handler: script.handler
       Runtime: python3.12
-      CodeUri: s3://dados-exe6-trusted/37ff02d05631ebcaaa32a1604907f250
+      CodeUri: delivery_function/
       MemorySize: 128
-      Role: arn:aws:iam::924403880720:role/LabRole
+      Role: arn:aws:iam::439218842845:role/LabRole
       Timeout: 15
-      Environment:
+      Environment: 
         Variables:
-          BUCKET_NAME: dados-exe6-trusted
+          BUCKET_NAME: dados-exe6-v1
       Events:
         MyScheduledEvent:
           Type: Schedule

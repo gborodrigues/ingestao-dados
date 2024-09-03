@@ -9,11 +9,11 @@ Resources:
       Runtime: python3.12
       CodeUri: raw_function/
       MemorySize: 128
-      Role: arn:aws:iam::924403880720:role/LabRole
+      Role: arn:aws:iam::439218842845:role/LabRole
       Timeout: 15
       Environment: 
         Variables:
-          BUCKET_NAME: dados-exe6-trusted
+          BUCKET_NAME: dados-exe6-v1
       Events:
         MyScheduledEvent:
           Type: Schedule
