@@ -1,0 +1,919 @@
+Ano;Trimestre;Categoria;Tipo;CNPJ IF;Instituição financeira;Índice;Quantidade de reclamações reguladas procedentes;Quantidade de reclamações reguladas - outras;Quantidade de reclamações não reguladas;Quantidade total de reclamações;Quantidade total de clientes – CCS e SCR;Quantidade de clientes – CCS;Quantidade de clientes – SCR;Unnamed: 14;Instituiï¿½ï¿½o financeira;ï¿½ndice;Quantidade de reclamaï¿½ï¿½es reguladas procedentes;Quantidade de reclamaï¿½ï¿½es reguladas - outras;Quantidade de reclamaï¿½ï¿½es nï¿½o reguladas;Quantidade total de reclamaï¿½ï¿½es;Quantidade total de clientes ï¿½ CCS e SCR;Quantidade de clientes ï¿½ CCS;Quantidade de clientes ï¿½ SCR
+2021;3º;Demais bancos e financeiras;Conglomerado; ;ABC-BRASIL (conglomerado); ;1.0;2.0;1.0;4.0;29707;28217;4009;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;AGIBANK (conglomerado);82,54;109.0;296.0;107.0;512.0;1320447;999951;873341;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;3.0;1.0;2.0;6.0;453405;130;453275;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;4.0;0.0;6.0;10.0;18217;9981;11683;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;ALFA (conglomerado); ;13.0;61.0;11.0;85.0;420486;268221;153423;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;ANDBANK (conglomerado); ;0.0;3.0;3.0;6.0;4369;4369;48;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;03532415;BANCO ABN AMRO S.A.; ;0.0;0.0;1.0;1.0;41;41;1;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;54403563;BANCO ARBI S.A.; ;1.0;9.0;1.0;11.0;28673;20319;8520;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;33132044;BANCO CEDULA S.A.; ;0.0;1.0;0.0;1.0;18022;2815;15434;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;0.0;1.0;1.0;28309;1234;27347;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;08357240;BANCO CSF S.A.;14,94;111.0;89.0;59.0;259.0;7425297; ;7425297;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;2.0;4.0;8.0;14.0;551874;473802;194373;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;10690848;BANCO DA CHINA BRASIL S.A.; ;1.0;0.0;0.0;1.0;481;457;39;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;33042151;BANCO DE LA NACION ARGENTINA; ;0.0;1.0;0.0;1.0;256;244;21;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;258,94;102.0;28.0;34.0;164.0;393906;266246;192853;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;27098060;BANCO DIGIO S.A.;31,05;58.0;108.0;71.0;237.0;1867547;1096662;1553737;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.; ;10.0;23.0;17.0;50.0;1082245;831407;621508;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.;42,87;39.0;23.0;23.0;85.0;909670;786497;405982;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;13.0;23.0;37.0;73.0;8844660;8261233;3268835;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;58616418;BANCO FIBRA S.A.; ;0.0;0.0;1.0;1.0;163670;4092;160152;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;62237425;BANCO FIDIS S/A; ;0.0;7.0;4.0;11.0;4661;147;4533;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;53518684;BANCO HSBC S.A.; ;0.0;0.0;2.0;2.0;3087;3074;58;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;04866275;BANCO INBURSA S.A.; ;5.0;5.0;5.0;15.0;14726;9;14717;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;5.0;2.0;0.0;7.0;50060;47319;2771;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;1.0;0.0;2.0;3.0;28238;7793;20692;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;2.0;2.0;0.0;4.0;270979;3638;267795;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;11970623;BANCO SENFF S.A.; ;1.0;4.0;1.0;6.0;109166;40042;70102;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BANCO SICOOB (conglomerado); ;21.0;26.0;6.0;53.0;5047970;2390217;3240987;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;4.0;5.0;2.0;11.0;43686;15291;30304;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;03215790;BANCO TOYOTA DO BRASIL S.A.; ;1.0;4.0;3.0;8.0;155981;15264;141643;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;10.0;15.0;6.0;31.0;2025332;439855;1847196;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BANESTES (conglomerado); ;17.0;35.0;21.0;73.0;1345235;1295217;477798;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BANRISUL (conglomerado);37,68;190.0;550.0;115.0;855.0;5041288;3714546;3937433;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BARIGUI (conglomerado); ;19.0;32.0;21.0;72.0;172348;144592;45355;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;BB (conglomerado);16,79;1180.0;2361.0;2288.0;5829.0;70259170;65432728;31696455;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;45283173;BBVA BRASIL BANCO DE INVESTIMENTO S.A.; ;0.0;0.0;1.0;1.0;0;0;0;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;11285104;BIORC FINANCEIRA - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;0.0;1.0;1.0;18321;251;18070;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BMG (conglomerado);106,63;868.0;1268.0;262.0;2398.0;8140173;4751592;5008921;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BMW (conglomerado); ;0.0;0.0;1.0;1.0;28019;25950;21412;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BNP PARIBAS (conglomerado);125,22;286.0;493.0;117.0;896.0;2283925;11993;2272412;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BOFA MERRILL LYNCH (conglomerado); ;0.0;1.0;1.0;2.0;4782;4777;107;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;BRADESCO (conglomerado);36,03;3613.0;4188.0;2892.0;10693.0;100264792;91440415;43363537;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;BRB (conglomerado);50,95;148.0;197.0;351.0;696.0;2904792;2790333;1380307;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;12865507;BRK S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;6482;715;5970;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);65,83;1004.0;1372.0;685.0;3061.0;15250442;9574292;7935699;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;C6 BANK (conglomerado);149,45;1651.0;1425.0;749.0;3825.0;11046743;9885015;3341379;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);22,36;3264.0;4303.0;4305.0;11872.0;145914729;144407266;23490184;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;2.0;3.0;7.0;76719;70930;16272;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;CCB (conglomerado); ;24.0;122.0;14.0;160.0;205490;3702;202355;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;CITIBANK (conglomerado); ;1.0;5.0;6.0;12.0;18294;17394;1809;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;COLOMBO (conglomerado); ;2.0;4.0;0.0;6.0;345089;30;345072;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;CREFISA (conglomerado);24,02;64.0;133.0;57.0;254.0;2663580;1577219;1594966;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;DAYCOVAL (conglomerado);255,32;332.0;552.0;63.0;947.0;1300297;160302;1173219;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;458,43;131.0;272.0;25.0;428.0;285752;681;285077;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;FATOR (conglomerado); ;0.0;0.0;1.0;1.0;13744;13740;19;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;1.0;0.0;2.0;11153; ;11153;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;4.0;5.0;85526;1653;83930;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;GENIAL (conglomerado); ;10.0;3.0;1.0;14.0;208540;208535;44;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;GM (conglomerado); ;1.0;10.0;9.0;20.0;274480;483;274083;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);95,86;86.0;136.0;55.0;277.0;897134;892175;16308;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;GRUPO ZEMA (conglomerado); ;1.0;4.0;4.0;9.0;461496;577;460937;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;HERVAL - HS (conglomerado); ;10.0;1.0;3.0;14.0;219957;22813;202041;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;HONDA (conglomerado); ;5.0;7.0;7.0;19.0;428225;106;428199;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;17453575;ICBC DO BRASIL BANCO MÚLTIPLO S.A.; ;0.0;1.0;0.0;1.0;187;175;24;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;10.0;18.0;4.0;32.0;63911;4519;60187;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;INTER (conglomerado);55,99;746.0;732.0;298.0;1776.0;13323223;13217210;1954815;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;ITAU (conglomerado);15,05;1318.0;3194.0;2338.0;6850.0;87568455;68959837;50906457;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;6.0;1.0;7.0;52001; ;52001;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;0.0;3.0;249991;4;249987;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;LECCA (conglomerado); ;3.0;4.0;2.0;9.0;27668;330;27340;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;3.0;6.0;5.0;14.0;626141; ;626141;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;MASTER (conglomerado);2.055,01;223.0;77.0;17.0;317.0;108515;5657;103039;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;MERCADO CRÉDITO (conglomerado); ;0.0;0.0;1.0;1.0;47984; ;47984;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);122,14;467.0;228.0;106.0;801.0;3823232;3235072;1856560;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;0.0;1.0;1.0;2.0;20203;341;19944;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;22.0;102.0;52.0;176.0;10572319;286354;10523154;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;MODAL (conglomerado); ;21.0;31.0;8.0;60.0;1304283;1304119;33167;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;1.0;0.0;1.0;434448;677;433771;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;5.0;29.0;0.0;34.0;99651;3135;96953;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;NUBANK (conglomerado);0,13;3.0;18.0;17.0;38.0;22267718;20581767;3601628;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;OMNI (conglomerado); ;17.0;60.0;67.0;144.0;5281196;165744;5129818;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;ORIGINAL (conglomerado);47,03;265.0;369.0;212.0;846.0;5634279;4365122;2051035;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado); ;5.0;4.0;2.0;11.0;3342281;3335727;7063;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;PARANÁ BANCO (conglomerado);193,45;94.0;412.0;20.0;526.0;485895;10034;476123;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.;14.015,05;54.0;21.0;1.0;76.0;3853; ;3853;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;12,79;87.0;59.0;22.0;168.0;6798337;6588214;2507474;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;PINE (conglomerado); ;3.0;3.0;0.0;6.0;12869;10925;2618;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;PORTO SEGURO (conglomerado);18,21;55.0;69.0;62.0;186.0;3019992; ;3019992;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;19.0;32.0;17.0;68.0;225158;1;225157;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;10.0;39.0;21.0;70.0;4873514;51;4873489;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;RENDIMENTO (conglomerado); ;1.0;10.0;1.0;12.0;26068;22168;6473;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;RODOBENS (conglomerado); ;1.0;1.0;1.0;3.0;14845;1609;13625;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SAFRA (conglomerado);103,36;442.0;932.0;408.0;1782.0;4276210;1938760;2638051;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;05503849;SANTANA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;0.0;1.0;29858;1259;28602;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;SANTANDER (conglomerado);29,19;1558.0;3646.0;2031.0;7235.0;53358153;45593473;25859687;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;00122327;SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;4.0;0.0;5.0;14007;592;13415;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SICREDI (conglomerado); ;0.0;0.0;2.0;2.0;6101332;6080485;187051;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SIMPALA (conglomerado); ;1.0;0.0;1.0;2.0;2883;25;2858;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SOCIETE GENERALE (conglomerado); ;0.0;1.0;0.0;1.0;534;418;159;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;3.0;7.0;11.0;2088;460;1628;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SOFISA (conglomerado);90,68;37.0;21.0;19.0;77.0;407986;398001;17484;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;SOROCRED (conglomerado); ;14.0;28.0;10.0;52.0;248801;1076;247735;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;41498340;TENTOS S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;0.0;0.0;1.0;129; ;129;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;09473806;TODESCREDI S/A - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;37627;11;37616;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;2.0;3.0;1.0;6.0;405846;1385;404867;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;VOITER (conglomerado); ;1.0;2.0;2.0;5.0;5059;4490;841;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;VOLKSWAGEN (conglomerado); ;21.0;29.0;44.0;94.0;358084;945;357307;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;VOLVO (conglomerado); ;0.0;1.0;0.0;1.0;7212;49;7204;;;;;;;;;;
+2021;3º;Top 10 - Bancos e Financeiras;Conglomerado; ;VOTORANTIM (conglomerado);13,90;256.0;193.0;225.0;674.0;18414652;15132752;5084002;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;WESTERN UNION (conglomerado); ;2.0;2.0;0.0;4.0;1;1; ;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Banco/financeira;23862762;WILL FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO;18,99;35.0;43.0;33.0;111.0;1842985;1842425;391779;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;XP (conglomerado);138,80;42.0;6.0;10.0;58.0;302591;302459;231155;;;;;;;;;;
+2021;3º;Demais bancos e financeiras;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;2.0;2.0;11.0;15.0;210964;88;210884;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ABC-BRASIL (conglomerado); ;4.0;7.0;3.0;14.0;50720;47485;6932;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ABN AMRO (conglomerado); ;0.0;0.0;1.0;1.0;0;0; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13140088;ACESSO SOLUÇÕES DE PAGAMENTO S.A.;14,70;75.0;128.0;9.0;212.0;5098671;5098661;19396;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;AGIBANK (conglomerado);96,00;182.0;262.0;95.0;539.0;1895683;1540134;1176067;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;4.0;4.0;2.0;10.0;534795;133;534662;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;10.0;3.0;2.0;15.0;30959;19706;16841;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ALFA (conglomerado); ;23.0;48.0;9.0;80.0;436746;267423;170417;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;32778350;AME DIGITAL BRASIL INSTITUICAO DE PAGAMENTO LTDA; ;6.0;31.0;90.0;127.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ANDBANK (conglomerado); ;0.0;2.0;2.0;4.0;4302;4302;29;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;19540550;ASAAS GESTÃO FINANCEIRA INSTITUIÇÃO DE PAGAMENTO S.A.; ;8.0;42.0;5.0;55.0;404447;404447; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;54403563;BANCO ARBI S.A.; ;14.0;8.0;0.0;22.0;84526;75882;10846;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00997185;BANCO B3 S.A.; ;0.0;1.0;1.0;2.0;896;896; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02658435;BANCO CATERPILLAR S.A.; ;1.0;0.0;0.0;1.0;3325; ;3325;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33132044;BANCO CEDULA S.A.; ;0.0;1.0;1.0;2.0;18010;2805;15425;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;2.0;2.0;4.0;28887;1290;27778;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;08357240;BANCO CSF S.A.;9,98;77.0;72.0;43.0;192.0;7707988; ;7707988;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;6.0;7.0;10.0;23.0;507169;507169; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33042151;BANCO DE LA NACION ARGENTINA; ;0.0;2.0;0.0;2.0;267;255;22;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05040481;BANCO DE LAGE LANDEN BRASIL S.A.; ;0.0;0.0;1.0;1.0;35292;4;35289;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;424,80;132.0;31.0;33.0;196.0;310734;142304;203761;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.;164,66;139.0;44.0;33.0;216.0;844129;844129; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.;56,38;56.0;28.0;23.0;107.0;993127;869557;435700;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;9.0;41.0;48.0;98.0;9294372;8720080;3310284;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33644196;BANCO FATOR S.A.; ;1.0;0.0;0.0;1.0;13172;13168;13;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;58616418;BANCO FIBRA S.A.; ;0.0;1.0;0.0;1.0;163544;4432;159809;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;53518684;BANCO HSBC S.A.; ;0.0;4.0;8.0;12.0;3858;3843;82;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04866275;BANCO INBURSA S.A.; ;10.0;10.0;5.0;25.0;27585;10;27575;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;91884981;BANCO JOHN DEERE S.A.; ;0.0;1.0;0.0;1.0;13559;254;13367;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;61088183;BANCO MIZUHO DO BRASIL S.A.; ;1.0;2.0;0.0;3.0;1249;1226;63;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;6.0;14.0;1.0;21.0;257799;253773;4082;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;13.0;4.0;0.0;17.0;57603;8406;49516;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01023570;BANCO RABOBANK INTERNATIONAL BRASIL S.A.; ;0.0;1.0;0.0;1.0;3872;3691;1699;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00517645;BANCO RIBEIRAO PRETO S.A.; ;2.0;0.0;0.0;2.0;4456;4290;1784;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;80271455;BANCO RNX S.A.; ;0.0;1.0;0.0;1.0;2452;60;2407;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;4.0;14.0;2.0;20.0;315587;6155;310457;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO SICOOB (conglomerado);17,47;102.0;93.0;30.0;225.0;5835765;2633199;3887697;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;7.0;14.0;2.0;23.0;12749;11617;2803;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO TOYOTA DO BRASIL S.A. (conglomerado); ;4.0;6.0;18.0;28.0;154520;15261;140131;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;8.0;24.0;10.0;42.0;1740049;679997;1431577;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANESTES (conglomerado);25,51;36.0;44.0;13.0;93.0;1410675;1360265;483399;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANRISUL (conglomerado);7,31;38.0;190.0;68.0;296.0;5198088;3716170;4072650;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BARIGUI (conglomerado); ;20.0;66.0;19.0;105.0;349049;316165;64436;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BB (conglomerado);12,64;930.0;2217.0;1162.0;4309.0;73557524;66988564;35361914;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BBC (conglomerado); ;3.0;4.0;2.0;9.0;5872; ;5872;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11285104;BIORC FINANCEIRA - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;1.0;0.0;1.0;17785;254;17531;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMG (conglomerado);46,87;542.0;844.0;154.0;1540.0;11561565;7399043;6467199;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMW (conglomerado); ;0.0;1.0;3.0;4.0;31181;29742;22022;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNP PARIBAS (conglomerado);42,48;87.0;279.0;74.0;440.0;2047673;11438;2036674;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNQI - FINANCEIRO (conglomerado); ;29.0;37.0;7.0;73.0; ; ; ;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRADESCO (conglomerado);25,18;2564.0;4393.0;1765.0;8722.0;101788328;95939623;39991382;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRB (conglomerado);46,81;269.0;297.0;144.0;710.0;5745833;4110808;2879389;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;12865507;BRK S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;0.0;1.0;23238;18388;20990;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);76,14;1559.0;1003.0;513.0;3075.0;20473165;15651421;8783911;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;C6 BANK (conglomerado);50,18;1070.0;1741.0;519.0;3330.0;21320772;19080023;6995013;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);17,19;2550.0;3067.0;2729.0;8346.0;148308904;146717181;29403700;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA GERAL (conglomerado); ;2.0;2.0;1.0;5.0;982;959;57;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;37122487;CALCRED S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;3.0;4.0;1.0;8.0;163794; ;163794;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;6.0;4.0;2.0;12.0;58790;53422;14080;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CCB (conglomerado); ;4.0;68.0;11.0;83.0;160508;3521;157408;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13935893;CELCOIN INSTITUICAO DE PAGAMENTO S.A.; ;5.0;16.0;2.0;23.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;26225776;CENTROCRED S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;0.0;0.0;1.0;110863;72;110791;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01027058;CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO; ;21.0;34.0;32.0;87.0;194142;194030;112;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CITIBANK (conglomerado); ;4.0;14.0;7.0;25.0;18558;17710;1759;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COBUCCIO (conglomerado); ;10.0;15.0;22.0;47.0; ; ; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COLOMBO (conglomerado); ;1.0;5.0;3.0;9.0;322307;60;322265;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05938780;COOPER CARD INSTITUIÇÃO DE PAGAMENTO LTDA.; ;0.0;1.0;1.0;2.0;378360;120371;280195;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;62895230;CREDI-SHOP S/A - INSTITUIÇÃO DE PAGAMENTO; ;0.0;2.0;0.0;2.0;701423; ;701423;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREDIT SUISSE (conglomerado); ;0.0;2.0;2.0;4.0;5997;5993;384;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREDSYSTEM (conglomerado); ;18.0;52.0;25.0;95.0; ; ; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREFISA (conglomerado);22,94;75.0;135.0;61.0;271.0;3268995;1890679;1776220;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;DAYCOVAL (conglomerado);110,61;173.0;447.0;60.0;680.0;1564046;237353;1377871;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13370835;DOCK INSTITUIÇÃO DE PAGAMENTO S.A.; ;23.0;26.0;8.0;57.0;1997904;1997904; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;21018182;EBANX INSTITUICAO DE PAGAMENTOS LTDA.;70,09;39.0;60.0;15.0;114.0;556387;556385;2;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00714671;EWALLY INSTITUIÇÃO DE PAGAMENTO S.A.; ;4.0;0.0;5.0;9.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;39321657;FACEBOOK INSTITUIÇÃO DE PAGAMENTO DO BRASIL LTDA.; ;1.0;2.0;3.0;6.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;113,04;79.0;169.0;14.0;262.0;698817;686;698139;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;6.0;7.0;14.0;25394; ;25394;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;4.0;4.0;9.0;84947;1591;83394;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13203354;FITBANK PAGAMENTOS ELETRONICOS S.A.; ;5.0;0.0;3.0;8.0;18359;18359; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23114447;FLAGSHIP INSTITUICAO DE PAGAMENTOS LTDA; ;7.0;8.0;0.0;15.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02732968;FORTBRASIL INSTITUIÇÃO DE PAGAMENTO S/A; ;7.0;9.0;7.0;23.0;697417; ;697417;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GAZIN (conglomerado); ;0.0;1.0;1.0;2.0;49647;352;49357;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GENIAL (conglomerado); ;9.0;10.0;1.0;20.0;657765;657761;406;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GERENCIANET (conglomerado); ;13.0;37.0;9.0;59.0;334816;334644;15120;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GM (conglomerado); ;4.0;13.0;13.0;30.0;227309;474;226918;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;22177858;GRANITO INSTITUIÇÃO DE PAGAMENTO S.A.; ;4.0;4.0;4.0;12.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);323,09;111.0;186.0;37.0;334.0;343552;336575;11875;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO ZEMA (conglomerado); ;1.0;14.0;11.0;26.0;505005;18246;490852;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HERVAL - HS (conglomerado); ;5.0;7.0;3.0;15.0;211524;801;210925;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HONDA (conglomerado); ;9.0;18.0;8.0;35.0;385212;142;385159;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13884775;HUB INSTITUIÇÃO DE PAGAMENTO S.A.; ;26.0;73.0;5.0;104.0;9935547;9935547;49;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;7.0;25.0;1.0;33.0;69360;4561;65597;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INTER (conglomerado);36,81;782.0;935.0;426.0;2143.0;21243511;21118007;3264018;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ITAU (conglomerado);14,40;1375.0;3171.0;1312.0;5858.0;95481328;76800409;55246772;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15111975;IUGU INSTITUIÇÃO DE PAGAMENTO S.A.; ;10.0;4.0;1.0;15.0;2010; ;2010;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;8.0;7.0;16.0;60558; ;60558;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;JP MORGAN CHASE (conglomerado); ;0.0;2.0;2.0;4.0;3672;3649;109;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06040559;KREDILIG S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;3.0;1.0;5.0;314082;5;314080;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;5.0;3.0;5.0;13.0;304471;5;304467;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07652226;LECCA CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A; ;4.0;0.0;9.0;13.0;24016;284;23732;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;4.0;9.0;1.0;14.0;711941; ;711941;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;21995256;MAG INSTITUICAO DE PAGAMENTO LTDA; ;0.0;1.0;0.0;1.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MASTER (conglomerado);373,13;98.0;94.0;15.0;207.0;262641;11741;252344;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCADO CRÉDITO (conglomerado);22,21;875.0;1292.0;196.0;2363.0;39392090;39364711;3858225;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);58,42;323.0;228.0;73.0;624.0;5528253;4084105;2861328;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;3.0;3.0;5.0;11.0;19302;413;18971;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;5,11;56.0;132.0;51.0;239.0;10958007;2049904;10564513;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MODAL (conglomerado);25,21;44.0;35.0;14.0;93.0;1745259;1744823;49015;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NACIONAL (conglomerado); ;0.0;0.0;1.0;1.0;61; ;61;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;3.0;2.0;6.0;466545;625;465922;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NEON (conglomerado);15,59;239.0;178.0;49.0;466.0;15325349;15324873;1243553;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;1.0;36.0;0.0;37.0;374760;3343;372062;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NUBANK (conglomerado);9,76;633.0;1423.0;322.0;2378.0;64841518;63116978;32844721;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;OMNI (conglomerado);10,33;45.0;89.0;62.0;196.0;4352219;246703;4135915;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ORIGINAL (conglomerado);17,35;732.0;1181.0;292.0;2205.0;42173653;41931506;4414351;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado);19,73;512.0;868.0;103.0;1483.0;25948408;25948045;317352;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03816413;PAGUEVELOZ INSTITUIÇÃO DE PAGAMENTO LTDA.; ;9.0;4.0;4.0;17.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PARANÁ BANCO (conglomerado); ;13.0;134.0;10.0;157.0;534173;11149;523415;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;23.0;48.0;3.0;74.0;45764;44153;2109;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10878448;PAYPAL DO BRASIL SERVICOS DE PAGAMENTOS LTDA;15,77;49.0;110.0;14.0;173.0;3106019;3106017;3;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;13,10;117.0;65.0;30.0;212.0;8928230;8731610;2919755;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17079937;PINBANK BRASIL INSTITUIÇÃO DE PAGAMENTO S.A.; ;0.0;0.0;1.0;1.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PINE (conglomerado); ;1.0;5.0;3.0;9.0;50060;11777;39030;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PORTO SEGURO (conglomerado);41,51;123.0;106.0;89.0;318.0;2962999;13010;2962817;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO;286,17;34.0;31.0;19.0;84.0;118808;2234;116575;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01722480;QUERO-QUERO VERDECARD INSTITUIÇÃO DE PAGAMENTO S.A.; ;6.0;12.0;2.0;20.0;388826; ;388826;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;18.0;67.0;43.0;128.0;5730050;14322;5729574;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RECARGAPAY (conglomerado);7,64;59.0;66.0;15.0;140.0;7714549;7712803;24547;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RENDIMENTO (conglomerado); ;13.0;19.0;2.0;34.0;242571;238738;6785;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;65697260;REPOM S.A.; ;9.0;3.0;0.0;12.0;269770;269768;4;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RODOBENS (conglomerado); ;2.0;9.0;4.0;15.0;21663;1553;20485;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06249129;RPW S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;0.0;1.0;14817;3;14814;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SAFRA (conglomerado);59,27;332.0;532.0;223.0;1087.0;5601301;2066353;3913535;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SANTANDER (conglomerado);28,54;1740.0;3409.0;1463.0;6612.0;60961566;54709213;25435633;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00122327;SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;4.0;0.0;5.0;11605;465;11140;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SCANIA (conglomerado); ;1.0;0.0;0.0;1.0;5399;4433;5354;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SENFF (conglomerado); ;8.0;10.0;8.0;26.0;263286;159789;108625;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05503849;SF3 CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;1.0;2.0;1.0;4.0;31739;1296;30445;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;38372267;SHPP BRASIL INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS DE PAGAMENTOS LTDA.; ;5.0;2.0;7.0;14.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SICREDI (conglomerado); ;0.0;4.0;5.0;9.0;7148115;7126236;210908;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SIMPALA (conglomerado); ;1.0;0.0;0.0;1.0;4670;27;4644;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15173776;SOCIAL BANK BANCO MÚLTIPLO S/A; ;17.0;1.0;1.0;19.0;1321;1311;17;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23757411;SOCIAL BANK INSTITUIÇÃO DE PAGAMENTO S.A; ;2.0;0.0;0.0;2.0;283011;283011; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOCIETE GENERALE (conglomerado); ;0.0;1.0;0.0;1.0;428;341;137;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;3.0;4.0;16.0;23.0;2234;448;1786;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOFISA (conglomerado);68,21;40.0;29.0;27.0;96.0;586409;577267;54379;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOROCRED (conglomerado); ;16.0;43.0;29.0;88.0;635124;1061;634109;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09274232;STATE STREET BRASIL S.A. - BANCO COMERCIAL; ;0.0;1.0;0.0;1.0;1;1; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;STONE (conglomerado);55,91;145.0;533.0;18.0;696.0;2593141;2593044;99;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SUMUP (conglomerado); ;0.0;2.0;0.0;2.0; ; ; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;30980539;U4CRYPTO INSTITUIÇÃO DE PAGAMENTO SA; ;11.0;7.0;2.0;20.0;0;0;0;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;UBS (conglomerado); ;0.0;1.0;0.0;1.0;0;0; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;2.0;5.0;2.0;9.0;459801;13555;450697;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOITER (conglomerado); ;0.0;4.0;3.0;7.0;201484;9550;192269;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLKSWAGEN (conglomerado); ;14.0;41.0;55.0;110.0;324006;288;323852;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLVO (conglomerado); ;0.0;1.0;0.0;1.0;8510;48;8501;;;;;;;;;;
+2022;3º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOTORANTIM (conglomerado);20,82;293.0;440.0;128.0;861.0;14072909;10185831;5344217;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VR (conglomerado); ;3.0;1.0;0.0;4.0;77;60;18;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WESTERN UNION (conglomerado); ;4.0;2.0;2.0;8.0;1;1; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WILL (conglomerado);60,50;200.0;127.0;162.0;489.0;3305651;3305651; ;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00991143;WORLDPAY DO BRASIL INSTITUICAO DE PAGAMENTO LTDA; ;0.0;1.0;0.0;1.0;55; ;55;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;XP (conglomerado);110,18;91.0;26.0;18.0;135.0;825881;818403;578173;;;;;;;;;;
+2022;3º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;2.0;21.0;16.0;39.0;215003;166;214868;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;ABC-BRASIL (conglomerado); ;0.0;2.0;0.0;2.0;28022;26485;3921;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;AGIBANK (conglomerado);59,49;68.0;205.0;84.0;357.0;1142941;868256;756080;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;4.0;1.0;7.0;433738;130;433608;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;1.0;1.0;3.0;15074;6675;11288;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;ALFA (conglomerado); ;19.0;32.0;16.0;67.0;416540;268174;149521;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;ANDBANK (conglomerado); ;0.0;2.0;3.0;5.0;4320;4320;44;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;03532415;BANCO ABN AMRO S.A.; ;0.0;0.0;1.0;1.0;76;54;23;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;54403563;BANCO ARBI S.A.; ;6.0;3.0;2.0;11.0;19525;11177;8411;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;15173776;BANCO CAPITAL S.A.; ;0.0;1.0;0.0;1.0;1354;1312;124;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;0.0;1.0;1.0;27828;1237;26867;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;08357240;BANCO CSF S.A.;26,30;192.0;93.0;73.0;358.0;7297674; ;7297674;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;2.0;6.0;12.0;20.0;548402;468836;194802;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;05040481;BANCO DE LAGE LANDEN BRASIL S.A.; ;0.0;0.0;1.0;1.0;36294;3;36292;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;212,14;79.0;23.0;26.0;128.0;372393;238155;195709;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;27098060;BANCO DIGIO S.A.;18,73;30.0;64.0;41.0;135.0;1601177;827359;1355127;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.; ;18.0;20.0;14.0;52.0;1074923;837994;605860;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.;33,77;30.0;23.0;15.0;68.0;888326;764874;396722;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;27.0;23.0;30.0;80.0;8679633;8095479;3223472;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;58616418;BANCO FIBRA S.A.; ;0.0;2.0;3.0;5.0;163669;4032;160187;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;62237425;BANCO FIDIS S/A; ;0.0;2.0;0.0;2.0;5972;183;5807;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;90731688;BANCO FORD S.A.; ;0.0;1.0;1.0;2.0;341;147;205;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;04866275;BANCO INBURSA S.A.; ;3.0;1.0;3.0;7.0;12478;11;12467;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;91884981;BANCO JOHN DEERE S.A.; ;1.0;1.0;0.0;2.0;14199;254;14008;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;59118133;BANCO LUSO BRASILEIRO S.A.; ;1.0;0.0;0.0;1.0;9668;4682;5351;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;0.0;2.0;0.0;2.0;44303;41822;2504;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;0.0;0.0;2.0;2.0;27172;7769;19666;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;3.0;4.0;2.0;9.0;282882;3185;279988;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;11970623;BANCO SENFF S.A.; ;4.0;12.0;4.0;20.0;89047;15993;73551;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BANCO SICOOB (conglomerado); ;8.0;11.0;11.0;30.0;4794630;2308218;3042206;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;60518222;BANCO SUMITOMO MITSUI BRASILEIRO S.A.; ;0.0;0.0;1.0;1.0;1063;1023;126;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;6.0;3.0;1.0;10.0;36623;15733;22906;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;03215790;BANCO TOYOTA DO BRASIL S.A.; ;4.0;1.0;8.0;13.0;159896;15262;145562;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;15.0;3.0;10.0;28.0;1995911;293864;1829315;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BANESTES (conglomerado); ;27.0;18.0;21.0;66.0;1333666;1283821;475598;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BANRISUL (conglomerado);37,20;188.0;365.0;107.0;660.0;5052830;3715613;3951732;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BARIGUI (conglomerado); ;16.0;14.0;12.0;42.0;99110;71651;34901;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;BB (conglomerado);21,09;1456.0;1880.0;1846.0;5182.0;69010996;64888224;30699885;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;20443996;BECKER FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;119246;8;119241;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BMG (conglomerado);101,86;795.0;669.0;264.0;1728.0;7804650;4171643;5102142;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BMW (conglomerado); ;0.0;0.0;2.0;2.0;27683;25442;21342;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BNP PARIBAS (conglomerado);192,10;456.0;268.0;94.0;818.0;2373655;11796;2362365;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BOFA MERRILL LYNCH (conglomerado); ;0.0;1.0;0.0;1.0;4484;4477;103;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;BRADESCO (conglomerado);25,33;2515.0;4076.0;3048.0;9639.0;99260817;90494990;43726399;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;BRB (conglomerado);103,70;182.0;257.0;363.0;802.0;1754926;1641288;824217;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);103,44;1301.0;1352.0;977.0;3630.0;12576773;6775722;7288816;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;C6 BANK (conglomerado);433,76;3672.0;1335.0;763.0;5770.0;8465478;7373617;2346096;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);32,13;4681.0;5868.0;5457.0;16006.0;145684233;144161902;23113938;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;3.0;5.0;10.0;75187;69362;11217;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;CCB (conglomerado); ;7.0;111.0;11.0;129.0;216849;3711;213723;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;CITIBANK (conglomerado); ;0.0;2.0;1.0;3.0;17853;16946;1807;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;COLOMBO (conglomerado); ;0.0;2.0;0.0;2.0;339230;29;339215;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;CREFISA (conglomerado);24,89;61.0;258.0;35.0;354.0;2450772;1373583;1571876;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;DAYCOVAL (conglomerado);777,01;1004.0;530.0;122.0;1656.0;1292129;150778;1171932;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;555,73;89.0;269.0;19.0;377.0;160147;667;159483;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;0.0;2.0;3.0;5554; ;5554;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;4.0;6.0;85499;1689;83865;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;GAZIN (conglomerado); ;0.0;0.0;1.0;1.0;35777;292;35512;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;GENIAL (conglomerado); ;16.0;4.0;3.0;23.0;106974;106969;39;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;GM (conglomerado); ;8.0;19.0;14.0;41.0;297112;470;296722;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);155,90;132.0;170.0;75.0;377.0;846668;841035;16924;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;GRUPO ZEMA (conglomerado); ;1.0;3.0;3.0;7.0;445945;574;445387;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;HERVAL - HS (conglomerado); ;5.0;3.0;5.0;13.0;219304;21827;201401;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;HONDA (conglomerado); ;6.0;5.0;9.0;20.0;436893;97;436869;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;13.0;12.0;4.0;29.0;64088;4461;60409;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;INTER (conglomerado);66,79;766.0;652.0;368.0;1786.0;11467628;11343042;1758019;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;ITAU (conglomerado);17,59;1508.0;3312.0;1707.0;6527.0;85710724;67286470;49517795;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;4.0;8.0;14.0;51049; ;51049;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;0.0;0.0;2.0;248335;4;248331;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;LECCA (conglomerado); ;2.0;0.0;1.0;3.0;26488;382;26107;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;3.0;0.0;4.0;7.0;565126; ;565126;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;MASTER (conglomerado);811,55;80.0;69.0;19.0;168.0;98576;4627;94106;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;MERCADO CRÉDITO (conglomerado); ;0.0;0.0;1.0;1.0;24423; ;24423;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);136,69;506.0;120.0;89.0;715.0;3701652;3094835;1793853;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;0.0;0.0;6.0;6.0;20275;298;20052;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;2,45;26.0;78.0;57.0;161.0;10604729;15784;10597182;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;MODAL (conglomerado); ;6.0;37.0;24.0;67.0;1153324;1153187;26671;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;2.0;1.0;3.0;427479;675;426804;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;13.0;51.0;0.0;64.0;94773;3107;92103;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;NUBANK (conglomerado); 0 ;0.0;12.0;13.0;25.0;17916854;16551605;2682699;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;OMNI (conglomerado); ;21.0;60.0;58.0;139.0;4908486;146058;4773941;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;ORIGINAL (conglomerado);67,64;320.0;350.0;286.0;956.0;4730387;4021930;1350520;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado); ;7.0;6.0;0.0;13.0;3013459;3008456;5432;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;PARANÁ BANCO (conglomerado);181,00;88.0;252.0;46.0;386.0;486166;9815;476614;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;28.0;9.0;2.0;39.0;1616; ;1616;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;17,46;115.0;50.0;27.0;192.0;6583040;6167980;2911088;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;PINE (conglomerado); ;0.0;0.0;2.0;2.0;13502;10883;3284;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;PORTO SEGURO (conglomerado);20,57;59.0;96.0;49.0;204.0;2867211; ;2867211;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;29.0;39.0;17.0;85.0;226210;3382;222831;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;26.0;49.0;28.0;103.0;4814788;48;4814765;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;RENDIMENTO (conglomerado); ;3.0;13.0;0.0;16.0;25046;21084;6538;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;RODOBENS (conglomerado); ;1.0;1.0;3.0;5.0;14012;1661;12750;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SAFRA (conglomerado);188,09;639.0;832.0;436.0;1907.0;3397199;1684220;1967050;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;05503849;SANTANA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;2.0;4.0;29406;1253;28155;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;SANTANDER (conglomerado);28,88;1514.0;3182.0;2032.0;6728.0;52415407;43972399;26478061;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SICREDI (conglomerado); ;0.0;0.0;4.0;4.0;5841394;5821054;180304;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SIMPALA (conglomerado); ;1.0;0.0;0.0;1.0;2271;20;2251;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SINOSSERRA (conglomerado); ;1.0;0.0;0.0;1.0;9729;99;9636;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SOCIETE GENERALE (conglomerado); ;0.0;1.0;0.0;1.0;670;552;161;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;5.0;9.0;15.0;1992;467;1525;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SOFISA (conglomerado);119,21;41.0;9.0;20.0;70.0;343924;334626;16236;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;SOROCRED (conglomerado); ;7.0;28.0;23.0;58.0;602379;1090;601342;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;3.0;2.0;6.0;407511;1010;406505;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;VOITER (conglomerado); ;0.0;3.0;1.0;4.0;5810;5261;840;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;VOLKSWAGEN (conglomerado);95,31;35.0;22.0;55.0;112.0;367195;945;366420;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;VOLVO (conglomerado); ;0.0;0.0;2.0;2.0;7220;92;7169;;;;;;;;;;
+2021;2º;Top 10 - Bancos e Financeiras;Conglomerado; ;VOTORANTIM (conglomerado);4,64;78.0;394.0;277.0;749.0;16774345;13340345;4830730;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;VR (conglomerado); ;1.0;0.0;0.0;1.0;70;53;18;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;WESTERN UNION (conglomerado); ;1.0;3.0;0.0;4.0;1;1; ;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Banco/financeira;23862762;WILL FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO;26,70;46.0;9.0;16.0;71.0;1722341;1721730;406890;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;XP (conglomerado); ;11.0;2.0;8.0;21.0; ; ; ;;;;;;;;;;
+2021;2º;Demais bancos e financeiras;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;4.0;4.0;7.0;15.0;204014;77;203946;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ABC-BRASIL (conglomerado); ;3.0;1.0;4.0;8.0;38792;37048;4559;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13140088;ACESSO SOLUÇÕES DE PAGAMENTO S.A.;13,24;30.0;38.0;3.0;71.0;2265540;2265540; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;AGIBANK (conglomerado);77,63;132.0;223.0;79.0;434.0;1700228;1375944;1011273;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;2.0;5.0;497481;132;497349;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;3.0;5.0;27283;15337;16622;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ALFA (conglomerado); ;12.0;35.0;10.0;57.0;418830;267342;152627;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ANDBANK (conglomerado); ;0.0;0.0;1.0;1.0;4374;4374;33;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;19540550;ASAAS GESTÃO FINANCEIRA INSTITUIÇÃO DE PAGAMENTO S.A.; ;3.0;11.0;2.0;16.0;296526;296526; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;54403563;BANCO ARBI S.A.; ;7.0;13.0;0.0;20.0;48842;40411;9387;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00997185;BANCO B3 S.A.; ;1.0;0.0;3.0;4.0;874;874; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33132044;BANCO CEDULA S.A.; ;0.0;2.0;0.0;2.0;18016;2809;15430;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;2.0;0.0;0.0;2.0;29075;1232;27996;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;08357240;BANCO CSF S.A.;12,63;94.0;86.0;26.0;206.0;7437471; ;7437471;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;3.0;3.0;5.0;11.0;563256;488547;195226;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;657,93;217.0;48.0;44.0;309.0;329820;172712;211804;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.; ;21.0;22.0;13.0;56.0;1106905;832301;650078;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.; ;19.0;25.0;14.0;58.0;943319;820262;419303;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;9.0;26.0;31.0;66.0;9079293;8496689;3340534;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;58616418;BANCO FIBRA S.A.; ;1.0;1.0;0.0;2.0;163906;4390;160140;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;62237425;BANCO FIDIS S/A; ;1.0;0.0;0.0;1.0;892;179;733;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;53518684;BANCO HSBC S.A.; ;0.0;0.0;5.0;5.0;3528;3515;76;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04866275;BANCO INBURSA S.A.; ;12.0;7.0;4.0;23.0;20983;10;20973;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33588252;BANCO INDUSCRED DE INVESTIMENTO S.A.; ;1.0;0.0;0.0;1.0;104;27;84;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;2.0;8.0;1.0;11.0;131481;127917;3611;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;10.0;0.0;0.0;10.0;46760;7922;39134;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01023570;BANCO RABOBANK INTERNATIONAL BRASIL S.A.; ;0.0;1.0;0.0;1.0;3831;3643;1751;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;80271455;BANCO RNX S.A.; ;0.0;0.0;1.0;1.0;2261;57;2219;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;0.0;2.0;1.0;3.0;311109;4418;307467;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO SICOOB (conglomerado); ;26.0;36.0;9.0;71.0;5462202;2521215;3574459;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;1.0;2.0;2.0;5.0;13722;12530;2947;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO TOYOTA DO BRASIL S.A. (conglomerado); ;2.0;5.0;6.0;13.0;151938;15265;137558;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;11.0;21.0;11.0;43.0;1938394;633710;1737249;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANESTES (conglomerado); ;24.0;25.0;16.0;65.0;1367792;1317332;479206;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANRISUL (conglomerado);14,72;75.0;233.0;95.0;403.0;5091709;3710716;3974497;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BARIGUI (conglomerado); ;26.0;54.0;13.0;93.0;309334;279133;63834;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BB (conglomerado);12,32;891.0;1819.0;1116.0;3826.0;72316273;66161824;33862615;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;20443996;BECKER FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;146480;7;146476;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11285104;BIORC FINANCEIRA - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;1.0;0.0;1.0;18268;254;18014;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMG (conglomerado);47,20;489.0;577.0;118.0;1184.0;10358318;6712419;5648428;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMW (conglomerado); ;1.0;2.0;1.0;4.0;28673;26682;20291;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNP PARIBAS (conglomerado);79,87;173.0;313.0;58.0;544.0;2165958;11882;2154555;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNQI - FINANCEIRO (conglomerado); ;29.0;74.0;5.0;108.0; ; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BOCOM (conglomerado); ;1.0;0.0;0.0;1.0;8804;7271;2068;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BOFA MERRILL LYNCH (conglomerado); ;0.0;1.0;0.0;1.0;4697;4691;110;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13370835;BPP INSTITUIÇÃO DE PAGAMENTO S.A.;18,40;36.0;18.0;3.0;57.0;1955803;1955803; ;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRADESCO (conglomerado);25,22;2587.0;3473.0;1987.0;8047.0;102567618;93858121;44622099;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRB (conglomerado);51,38;206.0;227.0;176.0;609.0;4008721;3790552;1487581;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);68,20;1290.0;1054.0;507.0;2851.0;18913034;13149801;9776731;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;C6 BANK (conglomerado);77,99;1265.0;1300.0;480.0;3045.0;16218908;14546414;5723394;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);13,17;1911.0;2563.0;2092.0;6566.0;145044033;143432228;24508861;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;0.0;2.0;60157;54810;13824;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CCB (conglomerado); ;5.0;68.0;10.0;83.0;183466;3623;180307;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13935893;CELCOIN INSTITUICAO DE PAGAMENTO S.A.; ;5.0;5.0;2.0;12.0;0; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01027058;CIELO S.A.; ;21.0;27.0;25.0;73.0;146900;146794;106;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CITIBANK (conglomerado); ;1.0;6.0;1.0;8.0;18222;17192;1934;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COBUCCIO (conglomerado); ;8.0;8.0;24.0;40.0; ; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COLOMBO (conglomerado); ;0.0;5.0;1.0;6.0;374111;52;374077;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CRED-SYSTEM (conglomerado); ;22.0;32.0;12.0;66.0; ; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;62895230;CREDI-SHOP S/A - INSTITUIÇÃO DE PAGAMENTO; ;0.0;3.0;0.0;3.0;718253; ;718253;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREFISA (conglomerado);52,61;160.0;144.0;72.0;376.0;3040767;1912347;1687604;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;DAYCOVAL (conglomerado);150,03;205.0;352.0;43.0;600.0;1366381;184638;1221767;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;21018182;EBANX INSTITUICAO DE PAGAMENTOS LTDA.;173,53;93.0;98.0;16.0;207.0;535917;535915;2;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;39321657;FACEBOOK INSTITUIÇÃO DE PAGAMENTO DO BRASIL LTDA.; ;0.0;0.0;1.0;1.0;0; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;134,16;75.0;258.0;20.0;353.0;559026;682;558350;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;0.0;0.0;1.0;17470; ;17470;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;0.0;1.0;2.0;85967;1623;84383;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02732968;FORTBRASIL ADMINISTRADORA DE CARTOES DE CREDITO S/A; ;1.0;3.0;0.0;4.0;653498; ;653498;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GENIAL (conglomerado); ;11.0;2.0;1.0;14.0;452120;452117;53;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GERENCIANET (conglomerado); ;6.0;12.0;2.0;20.0;296726;296684;6621;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GM (conglomerado); ;3.0;3.0;15.0;21.0;245739;483;245340;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10314753;GREEN NET INSTITUIÇÃO DE PAGAMENTO LTDA; ;0.0;0.0;1.0;1.0;0; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);74,59;71.0;116.0;20.0;207.0;951797;946580;16631;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO ZEMA (conglomerado); ;4.0;4.0;4.0;12.0;471569;3879;468856;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HERVAL - HS (conglomerado); ;1.0;3.0;3.0;7.0;203133;921;202497;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HONDA (conglomerado); ;3.0;3.0;5.0;11.0;397644;123;397605;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13884775;HUB PAGAMENTOS S.A; ;18.0;25.0;3.0;46.0;2891451;2891451; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17453575;ICBC DO BRASIL BANCO MÚLTIPLO S.A.; ;0.0;2.0;0.0;2.0;208;194;23;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;5.0;16.0;2.0;23.0;65379;4647;61507;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INTER (conglomerado);48,85;833.0;688.0;199.0;1720.0;17049709;16953999;2638025;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ITAU (conglomerado);12,26;1136.0;2726.0;1560.0;5422.0;92631221;73942108;53934158;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15111975;IUGU INSTITUIÇÃO DE PAGAMENTO S.A.; ;7.0;6.0;1.0;14.0;1381; ;1381;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;5.0;4.0;9.0;57183; ;57183;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;JP MORGAN CHASE (conglomerado); ;0.0;2.0;1.0;3.0;4029;4004;105;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06040559;KREDILIG S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;0.0;2.0;331957;5;331955;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;1.0;2.0;284124;5;284120;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07652226;LECCA CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A; ;2.0;0.0;1.0;3.0;27174;278;26896;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;6.0;4.0;2.0;12.0;667419; ;667419;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MASTER (conglomerado);601,71;88.0;87.0;10.0;185.0;146248;7754;138778;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCADO CRÉDITO (conglomerado);24,96;800.0;1213.0;189.0;2202.0;32050707;32007869;3346123;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);53,16;255.0;199.0;49.0;503.0;4796822;3811309;2339142;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;0.0;0.0;1.0;1.0;19627;409;19300;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;2,87;31.0;96.0;37.0;164.0;10786244;1470241;10558992;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MODAL (conglomerado); ;25.0;33.0;8.0;66.0;1589489;1589126;46505;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;7.0;1.0;9.0;448030;607;447424;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NEON (conglomerado);441,13;385.0;114.0;29.0;528.0;872741;0;872741;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;3.0;41.0;1.0;45.0;198099;3202;195343;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NUBANK (conglomerado);7,48;410.0;859.0;272.0;1541.0;54748336;52847381;26162099;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;OMNI (conglomerado); ;23.0;65.0;53.0;141.0;5019455;202517;4838125;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ORIGINAL (conglomerado);21,59;822.0;867.0;236.0;1925.0;38069786;37864819;3568320;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado);14,87;345.0;784.0;139.0;1268.0;23191620;23183549;331895;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PARANÁ BANCO (conglomerado); ;21.0;164.0;9.0;194.0;505065;10432;494974;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;24.0;41.0;4.0;69.0;45080;44177;1328;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10878448;PAYPAL DO BRASIL SERVICOS DE PAGAMENTOS LTDA;3,58;34.0;70.0;10.0;114.0;9476077;9476075;3;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;10,57;82.0;38.0;10.0;130.0;7753628;7531149;2667685;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PINE (conglomerado); ;1.0;2.0;0.0;3.0;13027;11478;2279;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PORTO SEGURO (conglomerado);30,20;100.0;70.0;71.0;241.0;3310348; ;3310348;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;16.0;19.0;9.0;44.0;138135;2234;135902;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01722480;QUERO-QUERO VERDECARD INSTITUIÇÃO DE PAGAMENTO S.A.; ;4.0;11.0;2.0;17.0;389143; ;389143;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;10.0;48.0;24.0;82.0;5636382;841;5636356;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RECARGAPAY (conglomerado); ;25.0;26.0;23.0;74.0; ; ; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RENDIMENTO (conglomerado); ;3.0;15.0;3.0;21.0;215526;211666;6509;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;65697260;REPOM S.A.; ;0.0;1.0;0.0;1.0;267987;267985;4;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RODOBENS (conglomerado); ;1.0;2.0;0.0;3.0;15610;1553;14421;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06249129;RPW S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;2385; ;2385;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SAFRA (conglomerado);33,93;189.0;473.0;211.0;873.0;5570140;2374691;3594598;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SANTANDER (conglomerado);27,37;1589.0;3015.0;1509.0;6113.0;58048730;51261246;26074237;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SENFF (conglomerado); ;1.0;1.0;2.0;4.0;193066;116106;80555;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05503849;SF3 CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;2.0;0.0;2.0;30878;1282;29599;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SICREDI (conglomerado); ;0.0;1.0;0.0;1.0;6566416;6545001;198969;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15173776;SOCIAL BANK BANCO MÚLTIPLO S/A; ;7.0;3.0;5.0;15.0;1346;1311;46;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOCIETE GENERALE (conglomerado); ;1.0;1.0;1.0;3.0;480;375;154;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;5.0;3.0;8.0;16.0;2230;452;1778;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOFISA (conglomerado); ;17.0;34.0;10.0;61.0;465763;456537;18681;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOROCRED (conglomerado); ;14.0;27.0;12.0;53.0;294357;1075;293295;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;STONE (conglomerado);54,99;116.0;139.0;10.0;265.0;2109401;2109302;102;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;41498340;TENTOS S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;282; ;282;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09473806;TODESCREDI S/A - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;36500;12;36488;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;UBS (conglomerado); ;0.0;1.0;0.0;1.0;0;0; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;2.0;4.0;0.0;6.0;426258;2456;424797;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOITER (conglomerado); ;1.0;3.0;0.0;4.0;164166;4884;159535;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLKSWAGEN (conglomerado); ;14.0;16.0;27.0;57.0;327452;288;327302;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLVO (conglomerado); ;0.0;1.0;0.0;1.0;7774;49;7766;;;;;;;;;;
+2022;1º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOTORANTIM (conglomerado);8,17;179.0;177.0;146.0;502.0;21892612;18823383;5432526;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WESTERN UNION (conglomerado); ;4.0;4.0;0.0;8.0;1;1; ;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23862762;WILL FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;23.0;33.0;24.0;80.0;2452408;2451566;562744;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;XP (conglomerado);166,42;81.0;23.0;7.0;111.0;486698;484824;365064;;;;;;;;;;
+2022;1º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;2.0;7.0;6.0;15.0;213551;143;213433;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ABC-BRASIL (conglomerado); ;2.0;0.0;3.0;5.0;33095;31565;4248;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13140088;ACESSO SOLUÇÕES DE PAGAMENTO S.A.;20,87;42.0;28.0;5.0;75.0;2011869;2011869; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;AGIBANK (conglomerado);195,92;309.0;334.0;76.0;719.0;1577152;1224075;996638;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;2.0;1.0;5.0;473823;130;473693;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;5.0;5.0;12.0;23421;13123;14355;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ALFA (conglomerado); ;16.0;54.0;12.0;82.0;422572;268328;155393;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ANDBANK (conglomerado); ;0.0;2.0;2.0;4.0;4376;4376;37;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;19540550;ASAAS GESTÃO FINANCEIRA INSTITUIÇÃO DE PAGAMENTO S.A.; ;0.0;3.0;1.0;4.0;249654;249654; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03532415;BANCO ABN AMRO S.A.; ;0.0;0.0;2.0;2.0;26;26;1;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;54403563;BANCO ARBI S.A.; ;8.0;14.0;2.0;24.0;38372;30210;8698;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;33132044;BANCO CEDULA S.A.; ;2.0;0.0;0.0;2.0;18016;2809;15432;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;1.0;0.0;1.0;28397;1230;27318;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;08357240;BANCO CSF S.A.;13,88;102.0;99.0;60.0;261.0;7348002; ;7348002;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;1.0;3.0;4.0;8.0;556710;480440;194083;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10690848;BANCO DA CHINA BRASIL S.A.; ;0.0;1.0;0.0;1.0;528;503;41;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05040481;BANCO DE LAGE LANDEN BRASIL S.A.; ;0.0;1.0;0.0;1.0;34810;3;34808;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;444,90;202.0;29.0;55.0;286.0;454034;302771;209881;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27098060;BANCO DIGIO S.A.;67,40;133.0;97.0;44.0;274.0;1973142;1349497;1500737;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.; ;29.0;30.0;19.0;78.0;1094338;827042;642079;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.;33,51;31.0;21.0;21.0;73.0;924951;801524;412094;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;5.0;34.0;26.0;65.0;8967632;8384030;3314376;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;58616418;BANCO FIBRA S.A.; ;1.0;2.0;0.0;3.0;164195;4262;160535;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;31880826;BANCO GUANABARA S.A.; ;1.0;0.0;0.0;1.0;2296;2240;378;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;53518684;BANCO HSBC S.A.; ;0.0;3.0;3.0;6.0;3331;3318;71;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04866275;BANCO INBURSA S.A.; ;10.0;18.0;6.0;34.0;19313;9;19304;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23903068;BANCO KOMATSU DO BRASIL S.A.; ;0.0;1.0;0.0;1.0;726;716;700;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;59118133;BANCO LUSO BRASILEIRO S.A.; ;0.0;1.0;0.0;1.0;9589;4653;5303;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;2.0;2.0;0.0;4.0;88234;85073;3199;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;2.0;1.0;0.0;3.0;29632;7826;22077;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01023570;BANCO RABOBANK INTERNATIONAL BRASIL S.A.; ;0.0;1.0;0.0;1.0;3933;3748;1744;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00517645;BANCO RIBEIRAO PRETO S.A.; ;0.0;0.0;1.0;1.0;3988;3815;1881;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;5.0;2.0;2.0;9.0;288254;4042;284806;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11970623;BANCO SENFF S.A.; ;3.0;1.0;1.0;5.0;158470;87682;72863;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO SICOOB (conglomerado); ;21.0;26.0;13.0;60.0;5291486;2461788;3440676;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;5.0;8.0;0.0;13.0;16284;15063;3043;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO TOYOTA DO BRASIL S.A. (conglomerado); ;2.0;5.0;6.0;13.0;152990;15267;138627;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;10.0;15.0;15.0;40.0;1977611;565322;1791767;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANESTES (conglomerado); ;11.0;23.0;12.0;46.0;1354013;1303774;478795;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANRISUL (conglomerado);22,86;116.0;360.0;80.0;556.0;5073507;3715708;3960797;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BARIGUI (conglomerado);140,74;36.0;54.0;14.0;104.0;255790;226379;56600;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BB (conglomerado);14,39;1034.0;2084.0;1568.0;4686.0;71820761;66103224;33139108;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BBC (conglomerado); ;1.0;0.0;0.0;1.0;5306; ;5306;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMG (conglomerado);67,87;618.0;748.0;167.0;1533.0;9105226;5655748;5202772;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMW (conglomerado); ;1.0;0.0;0.0;1.0;29782;27637;21275;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNP PARIBAS (conglomerado);134,90;302.0;385.0;61.0;748.0;2238538;12083;2226945;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNQI - FINANCEIRO (conglomerado); ;29.0;25.0;8.0;62.0; ; ; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BOFA MERRILL LYNCH (conglomerado); ;0.0;1.0;0.0;1.0;4769;4763;107;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13370835;BPP INSTITUIÇÃO DE PAGAMENTO S.A.;16,85;32.0;25.0;4.0;61.0;1898746;1898746; ;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRADESCO (conglomerado);25,30;2529.0;3483.0;2092.0;8104.0;99921260;91285260;44108477;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRB (conglomerado);71,83;261.0;338.0;215.0;814.0;3633478;3517522;1456857;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);63,08;1128.0;1081.0;547.0;2756.0;17880721;11720010;9553219;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;C6 BANK (conglomerado);106,22;1444.0;1326.0;541.0;3311.0;13594217;12201000;4405356;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);17,66;2564.0;3137.0;2949.0;8650.0;145144708;143598185;23841368;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;37122487;CALCRED S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;2813; ;2813;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;4.0;0.0;2.0;6.0;59274;54298;15589;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CCB (conglomerado); ;15.0;101.0;8.0;124.0;194385;3704;191219;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13935893;CELCOIN INSTITUICAO DE PAGAMENTO S.A.; ;4.0;4.0;6.0;14.0;0;0;0;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01027058;CIELO S.A.; ;28.0;23.0;47.0;98.0;122732;122628;104;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CITIBANK (conglomerado); ;1.0;6.0;9.0;16.0;18303;17392;1824;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COBUCCIO (conglomerado); ;6.0;15.0;24.0;45.0; ; ; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COLOMBO (conglomerado); ;2.0;11.0;0.0;13.0;354942;47;354909;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CRED-SYSTEM (conglomerado); ;21.0;16.0;13.0;50.0; ; ; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;62895230;CREDI-SHOP S/A - INSTITUIÇÃO DE PAGAMENTO; ;0.0;1.0;0.0;1.0;724468; ;724468;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREFISA (conglomerado);24,21;69.0;77.0;39.0;185.0;2849908;1742216;1641568;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;DAYCOVAL (conglomerado);90,80;120.0;330.0;42.0;492.0;1321554;172698;1185305;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;21018182;EBANX INSTITUICAO DE PAGAMENTOS LTDA.;102,12;48.0;26.0;4.0;78.0;470025;470023;2;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;39321657;FACEBOOK INSTITUIÇÃO DE PAGAMENTO DO BRASIL LTDA.; ;0.0;0.0;2.0;2.0;0;0;0;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;339,53;156.0;415.0;31.0;602.0;459457;682;458779;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;0.0;3.0;15595; ;15595;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;3.0;6.0;9.0;85821;1630;84240;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;FINAXIS (conglomerado); ;0.0;1.0;1.0;2.0;3981;3981; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13203354;FITBANK PAGAMENTOS ELETRONICOS S.A.; ;1.0;1.0;0.0;2.0;582;582; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02732968;FORTBRASIL ADMINISTRADORA DE CARTOES DE CREDITO S/A; ;13.0;6.0;5.0;24.0;622170; ;622170;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GAZIN (conglomerado); ;0.0;1.0;1.0;2.0;40831;314;40562;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GENIAL (conglomerado); ;16.0;5.0;1.0;22.0;325801;325797;47;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GERENCIANET (conglomerado); ;4.0;10.0;7.0;21.0;260700;260679;1109;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GM (conglomerado); ;1.0;14.0;16.0;31.0;258368;489;257965;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06339468;GRAZZIOTIN FINANCIADORA S/A - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;0.0;1.0;1.0;32555;1;32554;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);82,51;76.0;158.0;25.0;259.0;921017;915941;16753;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO ZEMA (conglomerado); ;1.0;3.0;4.0;8.0;463914;582;463351;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HERVAL - HS (conglomerado); ;7.0;5.0;1.0;13.0;206484;9685;201867;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HONDA (conglomerado); ;5.0;9.0;5.0;19.0;417444;112;417418;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13884775;HUB PAGAMENTOS S.A; ;9.0;17.0;3.0;29.0;2657176;2657176; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;7.0;22.0;4.0;33.0;63656;4550;59866;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INTER (conglomerado);53,90;818.0;756.0;258.0;1832.0;15174249;15073017;2457454;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ITAU (conglomerado);12,76;1153.0;2810.0;1673.0;5636.0;90314397;71571940;52704743;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15111975;IUGU INSTITUIÇÃO DE PAGAMENTO S.A.; ;1.0;1.0;1.0;3.0;0;0;0;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;4.0;3.0;7.0;53834; ;53834;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;5.0;8.0;263553;5;263549;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;LECCA (conglomerado); ;4.0;2.0;3.0;9.0;29144;273;28872;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;3.0;8.0;1.0;12.0;552627; ;552627;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MASTER (conglomerado);952,93;122.0;99.0;15.0;236.0;128025;7385;120867;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCADO CRÉDITO (conglomerado);21,45;590.0;931.0;211.0;1732.0;27495743;27451306;1760832;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);75,08;321.0;200.0;78.0;599.0;4275418;3678354;1920737;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;2.0;0.0;0.0;2.0;19881;406;19557;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;2,63;28.0;106.0;35.0;169.0;10613765;1109591;10456015;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MODAL (conglomerado); ;21.0;19.0;23.0;63.0;1489940;1489660;41410;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;5.0;0.0;5.0;441953;686;441268;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;20855875;NEON PAGAMENTOS S.A.;324,25;210.0;108.0;47.0;365.0;647641; ;647641;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;17.0;79.0;0.0;96.0;121786;3155;119057;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NUBANK (conglomerado);5,26;263.0;729.0;345.0;1337.0;49967783;47944167;23501884;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;OMNI (conglomerado); ;21.0;64.0;56.0;141.0;5228860;185059;5061589;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ORIGINAL (conglomerado);17,70;635.0;737.0;232.0;1604.0;35869197;35697171;2757338;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado);15,78;345.0;668.0;196.0;1209.0;21860165;21852866;326378;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PARANÁ BANCO (conglomerado);95,47;47.0;240.0;15.0;302.0;492284;10244;482350;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.;16.699,13;60.0;39.0;6.0;105.0;3593; ;3593;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10878448;PAYPAL DO BRASIL SERVICOS DE PAGAMENTOS LTDA;3,65;32.0;58.0;9.0;99.0;8746269;8746267;3;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;13,18;95.0;41.0;17.0;153.0;7207087;7004578;2587911;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PINE (conglomerado); ;3.0;2.0;0.0;5.0;12752;11239;2226;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PORTO SEGURO (conglomerado);28,80;92.0;75.0;57.0;224.0;3193843; ;3193843;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;13.0;26.0;13.0;52.0;232901;1;232900;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;12.0;56.0;18.0;86.0;5366646;58;5366622;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RENDIMENTO (conglomerado); ;2.0;20.0;5.0;27.0;207634;203897;6345;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;65697260;REPOM S.A.; ;1.0;0.0;1.0;2.0;264544;264542;4;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RODOBENS (conglomerado); ;2.0;4.0;3.0;9.0;15210;1575;14003;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SAFRA (conglomerado);58,24;299.0;608.0;218.0;1125.0;5133500;2203303;3293645;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SANTANDER (conglomerado);24,58;1397.0;3086.0;1638.0;6121.0;56812607;49729206;25807189;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00122327;SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;4.0;0.0;4.0;10969;564;10405;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SCANIA (conglomerado); ;1.0;0.0;0.0;1.0;5294;4196;5246;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05503849;SF3 CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;1.0;1.0;2.0;30369;1259;29113;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SIMPALA (conglomerado); ;1.0;0.0;0.0;1.0;3000;26;2974;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;4.0;3.0;9.0;16.0;2151;458;1693;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOFISA (conglomerado); ;26.0;24.0;9.0;59.0;437525;427956;17840;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOROCRED (conglomerado); ;11.0;35.0;11.0;57.0;715574;1071;714550;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;STONE (conglomerado);21,55;40.0;82.0;11.0;133.0;1855667;1855564;104;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09473806;TODESCREDI S/A - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;37822;12;37810;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01722480;VERDE - ADMINISTRADORA DE CARTOES DE CREDITO S.A.; ;2.0;7.0;2.0;11.0;435518; ;435518;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;4.0;4.0;1.0;9.0;416742;2167;415345;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLKSWAGEN (conglomerado); ;13.0;50.0;38.0;101.0;344355;869;343647;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLVO (conglomerado); ;0.0;1.0;2.0;3.0;7449;49;7440;;;;;;;;;;
+2021;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOTORANTIM (conglomerado);9,33;188.0;147.0;177.0;512.0;20145553;16986862;5287210;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WESTERN UNION (conglomerado); ;1.0;2.0;3.0;6.0;1;1; ;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23862762;WILL FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO;19,87;41.0;31.0;22.0;94.0;2062720;2062055;440454;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;XP (conglomerado);184,34;70.0;13.0;7.0;90.0;379732;376638;284044;;;;;;;;;;
+2021;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;0.0;9.0;14.0;23.0;213549;115;213456;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ABC-BRASIL (conglomerado); ;11.0;2.0;4.0;17.0;55693;51667;7966;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13140088;ACESSO SOLUÇÕES DE PAGAMENTO S.A. - INSTITUIÇÃO DE PAGAMENTO;15,52;86.0;81.0;12.0;179.0;5538591;5538546;41852;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10868663;ACG INSTITUIÇÃO DE PAGAMENTO S.A.; ;1.0;1.0;0.0;2.0;51711;51711; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;AFINZ (conglomerado); ;17.0;32.0;13.0;62.0;483968;1078;482931;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;AGIBANK (conglomerado);112,41;224.0;261.0;60.0;545.0;1992640;1610132;1269980;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36321990;AGORACRED S/A SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;6.0;0.0;8.0;549291;127;549164;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27214112;AL5 S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;5.0;0.0;0.0;5.0;31644;20829;16684;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ALFA (conglomerado); ;7.0;25.0;4.0;36.0;439630;267442;173252;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;32778350;AME DIGITAL BRASIL INSTITUICAO DE PAGAMENTO LTDA;1,28;40.0;38.0;14.0;92.0;31101626;31101415;1434;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ANDBANK (conglomerado); ;0.0;1.0;4.0;5.0;31197;4324;26901;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ASAAS (conglomerado); ;15.0;42.0;5.0;62.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;54403563;BANCO ARBI S.A.; ;6.0;7.0;2.0;15.0;89501;89501; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00997185;BANCO B3 S.A.; ;1.0;0.0;3.0;4.0;1160;1160; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02992446;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;3.0;4.0;7.0;29965;1306;28842;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;08357240;BANCO CSF S.A.;6,31;51.0;75.0;39.0;165.0;8070375; ;8070375;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04902979;BANCO DA AMAZONIA S.A.; ;2.0;1.0;6.0;9.0;587752;516123;203435;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;92874270;BANCO DIGIMAIS S.A.;170,35;56.0;35.0;50.0;141.0;328722;157369;208295;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13009717;BANCO DO ESTADO DE SERGIPE S.A.; ;29.0;30.0;15.0;74.0;1128708;851059;656226;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04913711;BANCO DO ESTADO DO PARÁ S.A.;33,68;34.0;21.0;10.0;65.0;1009445;886254;435161;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07237373;BANCO DO NORDESTE DO BRASIL S.A.; ;7.0;27.0;27.0;61.0;9384798;8816792;3284218;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;53518684;BANCO HSBC S.A.; ;0.0;4.0;3.0;7.0;4057;4039;89;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04866275;BANCO INBURSA S.A.; ;16.0;7.0;4.0;27.0;39104;10;39096;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;91884981;BANCO JOHN DEERE S.A.; ;0.0;1.0;0.0;1.0;13833;254;13641;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07441209;BANCO MONEO S.A.; ;0.0;1.0;0.0;1.0;1135;9;1128;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;78632767;BANCO OURINVEST S.A.; ;1.0;7.0;3.0;11.0;307501;304060;3496;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;61820817;BANCO PAULISTA S.A.; ;11.0;7.0;1.0;19.0;86056;8944;77420;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01023570;BANCO RABOBANK INTERNATIONAL BRASIL S.A.; ;0.0;0.0;1.0;1.0;3898;3708;1692;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00517645;BANCO RIBEIRAO PRETO S.A.; ;0.0;1.0;0.0;1.0;4759;4600;1853;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00795423;BANCO SEMEAR S.A.; ;0.0;5.0;2.0;7.0;312515;7354;306394;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO SICOOB (conglomerado);8,44;51.0;63.0;29.0;143.0;6040091;2687294;4066514;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;60518222;BANCO SUMITOMO MITSUI BRASILEIRO S.A.; ;0.0;0.0;1.0;1.0;1180;1140;123;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07679404;BANCO TOPÁZIO S.A.; ;4.0;7.0;4.0;15.0;12744;11638;2727;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANCO TOYOTA DO BRASIL S.A. (conglomerado); ;0.0;4.0;6.0;10.0;155246;15260;140846;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17351180;BANCO TRIANGULO S.A.; ;7.0;18.0;8.0;33.0;1744811;687146;1404832;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;57839805;BANCO TRICURY S.A.; ;0.0;0.0;1.0;1.0;972;958;152;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANESTES (conglomerado); ;25.0;19.0;8.0;52.0;1427677;1377261;487518;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BANRISUL (conglomerado);6,33;33.0;285.0;65.0;383.0;5213189;3722651;4084171;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BARIGUI (conglomerado);84,30;30.0;35.0;11.0;76.0;355853;322998;64206;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BB (conglomerado);8,22;610.0;1863.0;962.0;3435.0;74126665;67500727;35771620;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BBC (conglomerado); ;1.0;4.0;5.0;10.0;6609; ;6609;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;20443996;BECKER FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;0.0;1.0;198148;8;198143;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11285104;BIORC FINANCEIRA - CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;1.0;1.0;0.0;2.0;254;254; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMG (conglomerado);53,88;661.0;893.0;139.0;1693.0;12267412;7788639;6956142;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BMW (conglomerado); ;1.0;1.0;1.0;3.0;32997;31076;23175;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNP PARIBAS (conglomerado);32,84;63.0;278.0;50.0;391.0;1917938;10966;1907365;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BNQI - FINANCEIRO (conglomerado); ;29.0;32.0;16.0;77.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BOFA MERRILL LYNCH (conglomerado); ;0.0;2.0;0.0;2.0;4928;4923;122;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRADESCO (conglomerado);21,64;2225.0;3075.0;1578.0;6878.0;102814534;97211510;39643150;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BRB (conglomerado);38,57;233.0;282.0;142.0;657.0;6040929;4180679;3109280;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;12865507;BRK S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;1.0;2.0;25477;21498;18676;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;BTG PACTUAL/BANCO PAN (conglomerado);76,13;1613.0;1010.0;470.0;3093.0;21185674;15568730;9773649;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;C6 BANK (conglomerado);33,13;759.0;1451.0;468.0;2678.0;22905869;20319653;7333687;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA ECONÔMICA FEDERAL (conglomerado);12,08;1790.0;2331.0;2021.0;6142.0;148128348;146335552;32818092;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CAIXA GERAL (conglomerado); ;1.0;0.0;1.0;2.0;1006;986;58;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;37122487;CALCRED S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;0.0;0.0;2.0;181452; ;181452;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09313766;CARUANA S.A. - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;5.0;1.0;8.0;59548;54218;13701;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CCB (conglomerado); ;5.0;35.0;2.0;42.0;153165;3352;150213;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13935893;CELCOIN INSTITUICAO DE PAGAMENTO S.A.; ;18.0;4.0;3.0;25.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;26225776;CENTROCRED S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;1.0;0.0;1.0;110120;72;110048;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01027058;CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO; ;14.0;16.0;38.0;68.0;213990;213874;116;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CITIBANK (conglomerado); ;2.0;9.0;8.0;19.0;18935;18057;1780;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;18189547;CLOUDWALK INSTITUIÇÃO DE PAGAMENTO E SERVICOS LTDA; ;7.0;9.0;14.0;30.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COBUCCIO (conglomerado); ;16.0;9.0;44.0;69.0;752805;6695;751131;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;COLOMBO (conglomerado); ;1.0;3.0;0.0;4.0;322448;61;322405;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05938780;COOPER CARD INSTITUIÇÃO DE PAGAMENTO LTDA.; ;1.0;1.0;0.0;2.0;392951;131098;287743;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREDSYSTEM (conglomerado); ;5.0;14.0;15.0;34.0;4235510;0;4235510;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;CREFISA (conglomerado);23,81;84.0;145.0;83.0;312.0;3526710;2023560;1923733;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;DAYCOVAL (conglomerado);103,22;180.0;537.0;79.0;796.0;1743806;275309;1527166;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13370835;DOCK INSTITUIÇÃO DE PAGAMENTO S.A.; ;20.0;11.0;3.0;34.0;2013085;2013085; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;21018182;EBANX INSTITUICAO DE PAGAMENTOS LTDA.; ;27.0;35.0;5.0;67.0;559116;559114;2;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00714671;EWALLY INSTITUIÇÃO DE PAGAMENTO S.A.; ;2.0;2.0;1.0;5.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;39321657;FACEBOOK INSTITUIÇÃO DE PAGAMENTO DO BRASIL LTDA.; ;1.0;1.0;0.0;2.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15581638;FACTA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO;396,37;352.0;257.0;67.0;676.0;888045;686;887367;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;36583700;FC FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;15.0;4.0;3.0;22.0;21602; ;21602;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00411939;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;1.0;1.0;3.0;83736;1578;82190;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;FINAXIS (conglomerado); ;0.0;0.0;1.0;1.0;3907;3907; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04962772;FISERV DO BRASIL  INSTITUIÇÃO DE PAGAMENTO LTDA; ;0.0;2.0;0.0;2.0;93; ;93;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13203354;FITBANK INSTITUIÇÃO DE PAGAMENTOS ELETRÔNICOS S.A.; ;4.0;1.0;0.0;5.0;29083;29083; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23114447;FLAGSHIP INSTITUICAO DE PAGAMENTOS LTDA; ;1.0;6.0;0.0;7.0;73806;73806; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;02732968;FORTBRASIL INSTITUIÇÃO DE PAGAMENTO S/A; ;4.0;6.0;6.0;16.0;624574; ;624574;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GAZIN (conglomerado); ;0.0;1.0;0.0;1.0;52007;450;51636;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GENIAL (conglomerado); ;9.0;4.0;0.0;13.0;734186;734183;412;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GERENCIANET (conglomerado); ;8.0;13.0;2.0;23.0;345269;345030;15425;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GM (conglomerado); ;1.0;6.0;8.0;15.0;221613;474;221222;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;22177858;GRANITO INSTITUIÇÃO DE PAGAMENTO S.A.; ;3.0;0.0;2.0;5.0;60; ;60;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO BONSUCESSO - BS2 (conglomerado);375,26;122.0;72.0;21.0;215.0;325107;316674;11072;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;GRUPO ZEMA (conglomerado); ;1.0;3.0;13.0;17.0;537686;27881;518166;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HERVAL - HS (conglomerado); ;1.0;9.0;1.0;11.0;218105;803;217505;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;HONDA (conglomerado); ;6.0;6.0;9.0;21.0;358758;146;358703;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;13884775;HUB INSTITUIÇÃO DE PAGAMENTO S.A.;3,26;36.0;65.0;1.0;102.0;11021807;11021797;78;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INDUSTRIAL DO BRASIL (conglomerado); ;4.0;14.0;1.0;19.0;69669;4675;65849;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;INTER (conglomerado);36,90;857.0;615.0;239.0;1711.0;23219194;23080181;3502534;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ITAU (conglomerado);15,26;1492.0;3154.0;1463.0;6109.0;97712980;79820279;54522214;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15111975;IUGU INSTITUIÇÃO DE PAGAMENTO S.A.; ;8.0;7.0;1.0;16.0;2365; ;2365;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04230630;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;5.0;5.0;10.0;60391; ;60391;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;JP MORGAN CHASE (conglomerado); ;0.0;1.0;0.0;1.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;06040559;KREDILIG S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;1.0;4.0;319580;7;319576;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;11271860;LEBES FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;5.0;5.0;2.0;12.0;334203;5;334198;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07652226;LECCA CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A; ;1.0;3.0;2.0;6.0;27489;271;27218;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;07747410;M PAGAMENTOS S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;1.0;9.0;3.0;13.0;519067; ;519067;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MASTER (conglomerado);638,66;265.0;192.0;55.0;512.0;414928;14820;402383;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCADO CRÉDITO (conglomerado);18,07;779.0;898.0;247.0;1924.0;43102757;43079822;4035091;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCANTIL DO BRASIL (conglomerado);48,40;279.0;205.0;73.0;557.0;5764031;4172918;3047428;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MERCEDES-BENZ (conglomerado); ;2.0;1.0;5.0;8.0;19240;423;18899;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;09464032;MIDWAY S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;4,06;33.0;86.0;30.0;149.0;8108375;2324607;7565452;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;MODAL (conglomerado); ;25.0;34.0;5.0;64.0;1789775;1789452;46761;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;04379829;NEGRESCO S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;1.0;0.0;1.0;478360;632;477731;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NEON (conglomerado);11,75;195.0;182.0;35.0;412.0;16586111;16583349;1420503;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;74828799;NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO; ;0.0;21.0;2.0;23.0;544311;3669;541595;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;NUBANK (conglomerado);6,90;477.0;1150.0;319.0;1946.0;69077761;67260966;36478591;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;OMNI (conglomerado); ;22.0;53.0;38.0;113.0;4408458;268090;4175298;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;ORIGINAL (conglomerado);14,35;689.0;876.0;223.0;1788.0;47994411;47843568;3801245;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PAGBANK-PAGSEGURO (conglomerado);23,52;652.0;670.0;132.0;1454.0;27716605;27603910;565836;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03816413;PAGUEVELOZ INSTITUIÇÃO DE PAGAMENTO LTDA.; ;8.0;9.0;0.0;17.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PARANÁ BANCO (conglomerado); ;22.0;123.0;23.0;168.0;546784;11439;535755;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03311443;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;27.0;53.0;8.0;88.0;95648;93466;2897;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;10878448;PAYPAL DO BRASIL SERVICOS DE PAGAMENTOS LTDA;189,44;34.0;40.0;6.0;80.0;179473;179471;3;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;43180355;PEFISA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO;11,43;106.0;49.0;21.0;176.0;9273360;8999432;3045175;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17079937;PINBANK BRASIL INSTITUIÇÃO DE PAGAMENTO S.A.; ;1.0;0.0;0.0;1.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PINE (conglomerado); ;0.0;1.0;2.0;3.0;119595;11377;108983;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;PORTO SEGURO (conglomerado);59,10;177.0;132.0;99.0;408.0;2994558;13928;2994386;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01800019;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;12.0;11.0;19.0;42.0;118063;2234;115830;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;01722480;QUERO-QUERO VERDECARD INSTITUIÇÃO DE PAGAMENTO S.A.; ;0.0;8.0;3.0;11.0;580387;222463;395988;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;27351731;REALIZE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;13.0;53.0;27.0;93.0;5561332;55482;5559674;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RECARGAPAY (conglomerado);7,01;53.0;41.0;6.0;100.0;7559390;7557722;27113;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RENDIMENTO (conglomerado); ;2.0;13.0;3.0;18.0;259475;255724;6895;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;65697260;REPOM S.A.; ;2.0;0.0;0.0;2.0;270013;270012;4;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;RODOBENS (conglomerado); ;2.0;5.0;10.0;17.0;27298;1537;26117;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SAFRA (conglomerado);63,88;369.0;514.0;169.0;1052.0;5775583;2040680;4096212;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SANTANDER (conglomerado);21,05;1306.0;3441.0;1271.0;6018.0;62028657;55990014;25546690;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;00122327;SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;5.0;1.0;6.0;11724;439;11285;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SENFF (conglomerado); ;5.0;10.0;7.0;22.0;474751;185243;338115;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05503849;SF3 CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;0.0;0.0;1.0;1.0;19076;1299;17780;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;38372267;SHPP BRASIL INSTITUIÇÃO DE PAGAMENTO E SERVIÇOS DE PAGAMENTOS LTDA.; ;21.0;17.0;38.0;76.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SICREDI (conglomerado); ;0.0;0.0;1.0;1.0;7410928;7388472;219552;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SINOSSERRA (conglomerado); ;2.0;1.0;0.0;3.0;9868;126;9753;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;15173776;SOCIAL BANK BANCO MÚLTIPLO S/A; ;7.0;0.0;2.0;9.0;1258;1250;11;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;23757411;SOCIAL BANK INSTITUIÇÃO DE PAGAMENTO S.A; ;4.0;1.0;0.0;5.0;301235;301235; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;03881423;SOCINAL S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO; ;27.0;14.0;15.0;56.0;2471;443;2028;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SOFISA (conglomerado); ;23.0;30.0;14.0;67.0;672226;661744;58375;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;17359351;STARA FINANCEIRA S.A. - CRÉDITO FINANCIAMENTO E INVESTIMENTO; ;0.0;0.0;1.0;1.0;771;25;746;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;STONE (conglomerado);14,82;42.0;111.0;7.0;160.0;2832151;2832054;99;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;22121209;STRIPE BRASIL SOLUCOES DE PAGAMENTO INSTITUICAO DE PAGAMENTO LTDA; ;0.0;2.0;2.0;4.0;74; ;74;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;SUMUP (conglomerado); ;10.0;5.0;5.0;20.0;113;0;113;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;30980539;U4C INSTITUIÇÃO DE PAGAMENTO S.A.; ;3.0;4.0;0.0;7.0;0;0;0;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Banco/financeira;05192316;VIA CERTA FINANCIADORA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTOS; ;2.0;3.0;3.0;8.0;467431;17124;455695;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOITER (conglomerado); ;1.0;1.0;1.0;3.0;265635;15548;250495;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOLKSWAGEN (conglomerado); ;14.0;25.0;45.0;84.0;325412;288;325256;;;;;;;;;;
+2022;4º;Top 15 - Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VOTORANTIM (conglomerado);13,05;190.0;200.0;138.0;528.0;14551717;10657305;5428595;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;VR (conglomerado); ;0.0;2.0;0.0;2.0;77;60;18;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WESTERN UNION (conglomerado); ;5.0;4.0;0.0;9.0;1;1; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;WILL (conglomerado);36,34;134.0;87.0;59.0;280.0;3686960;3686960; ;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;XP (conglomerado);85,29;118.0;30.0;19.0;167.0;1383442;1351319;754933;;;;;;;;;;
+2022;4º;Demais Bancos, Financeiras e Instituições de Pagamento;Conglomerado; ;YAMAHA MOTOR (conglomerado); ;1.0;6.0;5.0;12.0;191613;172;191464;;;;;;;;;;
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;ABC-BRASIL (conglomerado); ;2.0;3.0;4.0;9.0;26230.0;24698;3810
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;AGIBANK (conglomerado);54,79;58.0;140.0;73.0;271.0;1058431.0;790848;693843
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;36321990;;;;;;;;;;;AGORACRED S/A SOCIEDADE DE CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;3.0;3.0;0.0;6.0;420692.0;129;420563
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;27214112;;;;;;;;;;;AL5 S.A. CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;1.0;0.0;2.0;12645.0;4979;10112
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;ALFA (conglomerado); ;14.0;44.0;15.0;73.0;412135.0;268186;145105
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;ANDBANK (conglomerado); ;0.0;2.0;1.0;3.0;4383.0;4382;52
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;03532415;;;;;;;;;;;BANCO ABN AMRO S.A.; ;0.0;0.0;3.0;3.0;98.0;71;31
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;54403563;;;;;;;;;;;BANCO ARBI S.A.; ;1.0;0.0;0.0;1.0;18087.0;9312;8838
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;02992446;;;;;;;;;;;BANCO CNH INDUSTRIAL CAPITAL S.A.; ;0.0;1.0;2.0;3.0;28352.0;1238;27399
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;08357240;;;;;;;;;;;BANCO CSF S.A.;22,53;165.0;94.0;51.0;310.0;7322283.0; ;7322283
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;04902979;;;;;;;;;;;BANCO DA AMAZONIA S.A.; ;4.0;1.0;7.0;12.0;540684.0;459756;194221
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;10690848;;;;;;;;;;;BANCO DA CHINA BRASIL S.A.; ;0.0;1.0;0.0;1.0;469.0;452;32
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;05040481;;;;;;;;;;;BANCO DE LAGE LANDEN BRASIL S.A.; ;0.0;1.0;0.0;1.0;36713.0;3;36711
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;92874270;;;;;;;;;;;BANCO DIGIMAIS S.A.;484,31;143.0;36.0;54.0;233.0;295260.0;168966;177621
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;27098060;;;;;;;;;;;BANCO DIGIO S.A.;25,71;40.0;100.0;64.0;204.0;1555646.0;594244;1515429
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;13009717;;;;;;;;;;;BANCO DO ESTADO DE SERGIPE S.A.; ;11.0;25.0;9.0;45.0;1066464.0;834281;599884
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;04913711;;;;;;;;;;;BANCO DO ESTADO DO PARï¿½ S.A.;46,20;39.0;10.0;12.0;61.0;844056.0;758236;347013
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;07237373;;;;;;;;;;;BANCO DO NORDESTE DO BRASIL S.A.; ;19.0;8.0;20.0;47.0;8512373.0;7928582;3161435
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;58616418;;;;;;;;;;;BANCO FIBRA S.A.; ;1.0;2.0;2.0;5.0;163619.0;3832;160325
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;62237425;;;;;;;;;;;BANCO FIDIS S/A; ;0.0;2.0;0.0;2.0;6907.0;185;6739
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;04866275;;;;;;;;;;;BANCO INBURSA S.A.; ;1.0;5.0;1.0;7.0;12367.0;12;12357
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;91884981;;;;;;;;;;;BANCO JOHN DEERE S.A.; ;0.0;1.0;0.0;1.0;15036.0;254;14848
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;59118133;;;;;;;;;;;BANCO LUSO BRASILEIRO S.A.; ;0.0;1.0;0.0;1.0;10071.0;4711;5719
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;78632767;;;;;;;;;;;BANCO OURINVEST S.A.; ;0.0;1.0;0.0;1.0;42561.0;40252;2342
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;61820817;;;;;;;;;;;BANCO PAULISTA S.A.; ;0.0;0.0;1.0;1.0;26002.0;7898;18366
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;00795423;;;;;;;;;;;BANCO SEMEAR S.A.; ;4.0;0.0;1.0;5.0;290731.0;2996;287950
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;11970623;;;;;;;;;;;BANCO SENFF S.A.; ;8.0;12.0;2.0;22.0;77251.0;106;77156
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;07679404;;;;;;;;;;;BANCO TOPï¿½ZIO S.A.; ;1.0;4.0;1.0;6.0;35261.0;16292;21125
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;03215790;;;;;;;;;;;BANCO TOYOTA DO BRASIL S.A.; ;0.0;0.0;1.0;1.0;164435.0;15283;150113
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;17351180;;;;;;;;;;;BANCO TRIANGULO S.A.; ;3.0;8.0;16.0;27.0;1953437.0;248674;1790932
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;57839805;;;;;;;;;;;BANCO TRICURY S.A.; ;0.0;1.0;1.0;2.0;685.0;666;149
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BANCOOB (conglomerado); ;19.0;31.0;18.0;68.0;4576738.0;2242360;2872105
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BANESTES (conglomerado); ;21.0;22.0;5.0;48.0;1232727.0;1181686;473114
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BANRISUL (conglomerado);24,99;127.0;349.0;60.0;536.0;5080031.0;3756328;3950764
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BARIGUI (conglomerado); ;7.0;15.0;26.0;48.0;42559.0;15683;29761
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;BB (conglomerado);21,25;1463.0;2782.0;2225.0;6470.0;68844801.0;65031349;30167056
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BMG (conglomerado);165,20;1190.0;644.0;251.0;2085.0;7202992.0;3421046;5072090
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BNP PARIBAS (conglomerado);181,98;447.0;250.0;90.0;787.0;2456247.0;12581;2444170
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BNY MELLON (conglomerado); ;0.0;0.0;1.0;1.0;3744.0;3744; 
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;BRADESCO (conglomerado);22,78;2248.0;3913.0;2591.0;8752.0;98648524.0;89718703;43974719
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BRB (conglomerado);107,93;120.0;149.0;140.0;409.0;1111807.0;999840;498848
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;BTG PACTUAL (conglomerado); ;29.0;44.0;60.0;133.0;766998.0;679113;147461
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;C6 BANK (conglomerado);979,53;5940.0;598.0;207.0;6745.0;6064085.0;5139889;1748590
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;CAIXA ECONï¿½MICA FEDERAL (conglomerado);36,20;5263.0;6341.0;4920.0;16524.0;145367310.0;143826538;22933543
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;09313766;;;;;;;;;;;CARUANA S.A. - SOCIEDADE DE CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;2.0;1.0;4.0;71736.0;65584;11640
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;CCB (conglomerado); ;10.0;126.0;15.0;151.0;224649.0;3762;221472
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;CITIBANK (conglomerado); ;1.0;11.0;2.0;14.0;17612.0;16889;1620
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;COLOMBO (conglomerado); ;0.0;3.0;1.0;4.0;331101.0; ;331101
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;CREFISA (conglomerado); ;25.0;184.0;52.0;261.0;2255383.0;1184391;1562138
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;DAYCOVAL (conglomerado);274,48;331.0;400.0;113.0;844.0;1205882.0;138048;1094686
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;62331228;;;;;;;;;;;DEUTSCHE BANK S.A. - BANCO ALEMAO; ;0.0;1.0;0.0;1.0;2112.0;2093;164
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;15581638;;;;;;;;;;;FACTA FINANCEIRA S.A. - CRï¿½DITO FINANCIAMENTO E INVESTIMENTO;620,55;70.0;151.0;3.0;224.0;112802.0;664;112141
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;00411939;;;;;;;;;;;FINAMAX S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;2.0;3.0;5.0;87041.0;1715;85381
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;FINAXIS (conglomerado); ;0.0;1.0;0.0;1.0;4066.0;4066; 
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;GENIAL (conglomerado); ;5.0;3.0;2.0;10.0;16008.0;16003;35
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;GM (conglomerado); ;5.0;14.0;23.0;42.0;309105.0;473;308711
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;GRUPO BONSUCESSO - BS2 (conglomerado);105,42;82.0;162.0;83.0;327.0;777801.0;771754;17097
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;GRUPO ZEMA (conglomerado); ;1.0;4.0;4.0;9.0;439232.0;570;438672
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;HERVAL - HS (conglomerado); ;3.0;7.0;0.0;10.0;213321.0;13314;202222
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;HONDA (conglomerado); ;0.0;3.0;6.0;9.0;443975.0;101;443942
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;INDUSTRIAL DO BRASIL (conglomerado); ;17.0;22.0;7.0;46.0;65443.0;4487;61782
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;INDUSVAL (conglomerado); ;1.0;0.0;3.0;4.0;5298.0;4796;785
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;INTER (conglomerado);129,26;1245.0;582.0;362.0;2189.0;9631304.0;9500388;1557039
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;ITAU (conglomerado);19,72;1636.0;3086.0;2156.0;6878.0;82955510.0;63980098;49391035
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;04230630;;;;;;;;;;;JBCRED S.A. SOCIEDADE DE CREDITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;2.0;3.0;7.0;49879.0; ;49879
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;JP MORGAN CHASE (conglomerado); ;0.0;1.0;0.0;1.0;3931.0;3914;129
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;11271860;;;;;;;;;;;LEBES FINANCEIRA S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;0.0;0.0;1.0;4.0;4; 
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;LECCA (conglomerado); ;3.0;3.0;1.0;7.0;26060.0;418;25643
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;Mï¿½XIMA (conglomerado);568,89;57.0;44.0;18.0;119.0;100194.0;4444;95896
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;MERCANTIL DO BRASIL (conglomerado);65,23;227.0;104.0;38.0;369.0;3479596.0;2945439;1733419
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;MERCEDES-BENZ (conglomerado); ;1.0;0.0;4.0;5.0;20651.0;252;20473
+2021;1ï¿½;Top 10;Banco/financeira;09464032;;;;;;;;;;;MIDWAY S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO;2,77;30.0;91.0;50.0;171.0;10797493.0;208;10797426
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;MODAL (conglomerado); ;25.0;53.0;34.0;112.0;1064679.0;1064679; 
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;74828799;;;;;;;;;;;NOVO BANCO CONTINENTAL S.A. - BANCO Mï¿½LTIPLO; ;11.0;22.0;0.0;33.0;91784.0;3074;89140
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;NUBANK (conglomerado); 0 ;0.0;8.0;11.0;19.0;13774766.0;12716441;1936741
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;OMNI (conglomerado);6,81;32.0;51.0;53.0;136.0;4695792.0;9119;4690354
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;ORIGINAL (conglomerado);79,22;316.0;289.0;239.0;844.0;3988641.0;3643140;820078
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;PAGBANK-PAGSEGURO (conglomerado); ;0.0;6.0;0.0;6.0;2476342.0;2471600;5042
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;PAN (conglomerado);245,28;2185.0;1182.0;586.0;3953.0;8907890.0;3543823;6252547
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;PARANï¿½ BANCO (conglomerado);228,46;111.0;252.0;19.0;382.0;485854.0;9678;476431
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;03311443;;;;;;;;;;;PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;6.0;3.0;0.0;9.0;3843.0;0;3843
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;43180355;;;;;;;;;;;PEFISA S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO;12,90;81.0;36.0;16.0;133.0;6279057.0;5846351;2878477
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;PINE (conglomerado); ;0.0;0.0;1.0;1.0;12831.0;10476;2993
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;PORTO SEGURO (conglomerado);29,12;80.0;114.0;64.0;258.0;2747125.0; ;2747125
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;01800019;;;;;;;;;;;PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO; ;29.0;43.0;15.0;87.0;228987.0;3382;225607
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;27351731;;;;;;;;;;;REALIZE CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO S.A.; ;6.0;31.0;22.0;59.0;4979229.0;45;4979205
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;RENDIMENTO (conglomerado); ;4.0;2.0;0.0;6.0;24379.0;20273;6735
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;RODOBENS (conglomerado); ;2.0;2.0;1.0;5.0;13539.0;1620;12328
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;SAFRA (conglomerado);281,53;896.0;793.0;399.0;2088.0;3182584.0;1451405;1959556
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;05503849;;;;;;;;;;;SANTANA S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;1.0;1.0;0.0;2.0;29195.0;1250;27947
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;SANTANDER (conglomerado);31,38;1611.0;3279.0;1706.0;6596.0;51331984.0;42880457;25493933
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;00122327;;;;;;;;;;;SANTINVEST S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTOS; ;1.0;2.0;0.0;3.0;14370.0;634;13736
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;07747410;;;;;;;;;;;SAX S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;2.0;4.0;2.0;8.0;853173.0; ;853173
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;SICREDI (conglomerado); ;0.0;0.0;1.0;1.0;5562671.0;5541402;177298
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;03881423;;;;;;;;;;;SOCINAL S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;0.0;1.0;5.0;6.0;3398.0;1813;1585
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;SOFISA (conglomerado); ;25.0;17.0;26.0;68.0;314921.0;306391;14980
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;SOROCRED (conglomerado); ;12.0;21.0;21.0;54.0;720886.0;1196;719752
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;UBS (conglomerado); ;0.0;3.0;1.0;4.0;0.0;0; 
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;05192316;;;;;;;;;;;VIA CERTA FINANCIADORA S.A. - CRï¿½DITO, FINANCIAMENTO E INVESTIMENTOS; ;0.0;2.0;2.0;4.0;412934.0;1008;411929
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;VOLKSWAGEN (conglomerado); ;24.0;14.0;35.0;73.0;377032.0;1196;376129
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;VOLVO (conglomerado); ;0.0;0.0;1.0;1.0;7736.0;88;7727
+2021;1ï¿½;Top 10;Conglomerado; ;;;;;;;;;;;VOTORANTIM (conglomerado);4,57;69.0;428.0;206.0;703.0;15074861.0;11512143;4668540
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;WESTERN UNION (conglomerado); ;3.0;0.0;0.0;3.0;1.0;1; 
+2021;1ï¿½;Grupo Secundï¿½rio;Banco/financeira;23862762;;;;;;;;;;;WILL FINANCEIRA S.A. CRï¿½DITO, FINANCIAMENTO E INVESTIMENTO; ;16.0;15.0;17.0;48.0;1548186.0;1546806;314656
+2021;1ï¿½;Grupo Secundï¿½rio;Conglomerado; ;;;;;;;;;;;YAMAHA MOTOR (conglomerado); ;6.0;4.0;7.0;17.0;197837.0;61;197782

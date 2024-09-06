@@ -1,0 +1,62 @@
+#####Estrutura de Pastas Inicial#####
+.
+├── Bancos/                            <== Dados Brutos de Bancos
+├── Empregados/                        <== Dados Brutos de Empregados
+├── Reclamacoes/                       <== Dados Brutos de Reclamacoes
+├── config/                            <== Pasta do Airflow
+├── dags/                              <== Pasta do Airflow - Diretorio com as DAGs
+│   ├── scripts/                       <== Pasta do Airflow - Diretorio com os sripts utilizados pelas DAGs
+│   │    ├── raw_layer.py              <== Primeiro Script da Data pipeline_sequencial
+│   │    ├── trusted_layer.py          <== Segundo  Script da Data pipeline_sequencial
+│   │    └──  delivery_layer.py        <== Terceiro Script da Data pipeline_sequencial
+│   ├── create_mysql_connection.py     <== Airflow DAG create_mysql_connection_dag
+│   └── Ingestao_dados.py              <== Airflow DAG pipeline_sequencial
+├── logs/                              <== Pasta do Airflow
+├── plugins/                           <== Pasta do Airflow
+├── docker-compose.yaml                <== Docker Compose
+├── .env                               <== Environment Variables
+└── README                             <== Este arquivo
+
+#####Provisionando o ambiente
+docker compose up
+
+#####Acessando o ambiente
+http://<IP>:8080/
+    Username: Airflow
+    Password: Airflow
+
+####Ordem de execução das Dags ####
+1 - create_mysql_connection.py
+2 - Ingestao_dados.py
+
+#####Resultado do processamento de Dados
+Os dados processados serão persistidos na pasta Dados
+
+raw/
+├── Bancos/
+│   └── output.csv
+├── Empregados/
+│   └── output.csv
+├── Reclamacoes/
+│   └── output.csv
+
+trusted/
+├── Bancos/
+│   └── output.parquet
+├── Empregados/
+│   └── output.parquet
+├── Reclamacoes/
+│   └── output.parquet
+
+delivery/
+├── output.parquet
+
+#####Resultado via MySQL
+Abre a conexão com o banco de Dados na porta 3306
+Usuário: ingestao
+Senha: ingestao
+
+use ingestao_dados;
+select * from tb_banco;
+
+
