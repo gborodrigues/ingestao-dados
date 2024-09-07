@@ -56,7 +56,7 @@ Abre a conexão com o banco de Dados na porta 3306
 Usuário: ingestao
 Senha: ingestao
 
-use ingestao_dados;
+use ingestao-dados;
 select * from tb_banco;
 
 

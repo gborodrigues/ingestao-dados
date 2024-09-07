@@ -4,7 +4,7 @@ from airflow.providers.mysql.hooks.mysql import MySqlHook
 import mysql.connector
 
 
-DB_NAME = os.getenv('DB_NAME', 'ingestao_dados')
+DB_NAME = os.getenv('DB_NAME', 'ingestao-dados')
 
 def print_env_vars():
     print(f"DB_HOST: {os.getenv('DB_HOST')}")
