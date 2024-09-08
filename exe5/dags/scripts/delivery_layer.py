@@ -4,12 +4,15 @@ from airflow.providers.mysql.hooks.mysql import MySqlHook
 import mysql.connector
 
 
-DB_NAME = os.getenv('DB_NAME', 'ingestao_dados')
+DB_NAME = os.getenv('DB_NAME', 'ingestao-dados')
+DB_HOST = os.getenv('DB_HOST', 'exe5-db-1')
+DB_DATABASE = os.getenv('DB_DATABASE', 'ingestao-dados')
+DB_USER = os.getenv('DB_USER', 'ingestao')
 
 def print_env_vars():
-    print(f"DB_HOST: {os.getenv('DB_HOST')}")
-    print(f"DB_DATABASE: {os.getenv('DB_DATABASE')}")
-    print(f"DB_USER: {os.getenv('DB_USER')}")
+    print(f"DB_HOST: {DB_HOST}")
+    print(f"DB_DATABASE: {DB_DATABASE}")
+    print(f"DB_USER: {DB_USER}")
     print(f"DB_NAME: {DB_NAME}")
 
 def clean_column_name(name):
@@ -44,6 +47,7 @@ def delivery_layer():
 
     path = '/app/Dados/delivery'
     os.makedirs(path, exist_ok=True)
+    print('1')
     
     directories_paths = ['Bancos', 'Empregados', 'Reclamacoes']
     dataframes = {}
@@ -58,11 +62,19 @@ def delivery_layer():
     merged_all.columns = [clean_column_name(col) for col in merged_all.columns]
     merged_all = merged_all.drop(['Nome_y', 'Segmento_y', 'CNPJ_y', 'Unnamed__14'], axis=1, errors='ignore')
     merged_all.columns = merged_all.columns.str.replace('_x', '')
+    print('2')
 
     try:
         mysql_hook = MySqlHook(mysql_conn_id='exe5-db-1')
+        print('2.5')
+        print(mysql_hook)
         conn = mysql_hook.get_conn()
+        print('3')
+        # print(mysql_hook.get_conn())
+        print(conn)
         cursor = conn.cursor()
+        print('4')
+        print((cursor))
 
         # Create Database
         create_database(cursor, DB_NAME)

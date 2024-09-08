@@ -11,10 +11,12 @@ def add_mysql_connection(session=None):
     conn_id = 'exe5-db-1'
     conn_type = 'mysql'
     conn_host = 'exe5-db-1' #Nome do container do Mysql no Docker Compose
-    conn_schema = 'ingestao_dados'
+    conn_schema = 'ingestao-dados'
     conn_login = 'ingestao'
     conn_password = 'ingestao'
     conn_port = 3306
+    print(conn_login)
+    print(conn_password)
 
     # Verifica se a conexão já existe
     existing_conn = session.query(Connection).filter_by(conn_id=conn_id).first()
@@ -29,6 +31,7 @@ def add_mysql_connection(session=None):
             password=conn_password,
             port=conn_port
         )
+        print(new_conn)
         # Adiciona e confirma a conexão no banco de dados do Airflow
         session.add(new_conn)
         session.commit()

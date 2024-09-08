@@ -1,0 +1,1 @@
+/usr/lib/postgresql/15/bin/postgres "--work_mem=10MB"
