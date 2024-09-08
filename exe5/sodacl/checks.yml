@@ -1,0 +1,4 @@
+checks for tb_banco:
+  - row_count = 336
+  - missing_count(Nome) = 0
+  - missing_count(CNPJ) = 0
