@@ -1,0 +1,3 @@
+--extra-index-url https://pypi.cloud.soda.io
+soda-mysql
+soda-core
