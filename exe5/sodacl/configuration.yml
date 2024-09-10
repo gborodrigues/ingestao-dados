@@ -1,0 +1,8 @@
+data_source adventureworks:
+  type: mysql
+  connection:
+    host: db
+    username: root
+    password: root
+  database: mysql
+  schema: ingestao_dados
