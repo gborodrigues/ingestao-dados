@@ -1,0 +1,12 @@
+producer/*
+!producer/script.py
+!producer/requirements.txt
+!producer/.env
+
+consumer/*
+!consumer/script.py
+!consumer/requirements.txt
+!consumer/.env
+
+.zip
+infra_template.yaml

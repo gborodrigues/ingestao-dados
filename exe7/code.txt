@@ -1,4 +1,0 @@
-aws cloudformation create-stack \
-  --stack-name Exercicio7Stack \
-  --template-body file://infra.yaml \
-  --capabilities CAPABILITY_NAMED_IAM
