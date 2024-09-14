@@ -36,6 +36,10 @@ Outputs:
     Description: "Name of the S3 bucket"
     Value: !Ref RawS3Bucket
 
+  S3BucketName:
+    Description: "Name of the S3 bucket"
+    Value: !Ref CodeS3Bucket
+
   SQSQueueURL:
     Description: "URL of the SQS queue"
     Value: !Ref ProcessSQSQueue
