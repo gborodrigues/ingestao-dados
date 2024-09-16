@@ -64,35 +64,26 @@ EOL
 
 echo "Generated $TEMPLATE_FILE with environment variables from $ENV_FILE"
 
-# Install Python dependencies
 pip3 install --target ./consumer -r consumer/requirements.txt
 
-# Check if consumer.zip exists and delete it
 if [ -f consumer.zip ]; then
     echo "consumer.zip exists, deleting it..."
     rm consumer.zip
 fi
 
-# Ensure the directory or file to be zipped exists
 if [ -d consumer ]; then
-    # Create a new zip file
     zip -r9 consumer.zip consumer
-elif [ -f consumer ]; then
-    # Zip a single file if it exists
-    zip -9 consumer.zip consumer
 else
     echo "Error: 'consumer' directory or file not found!"
     exit 1
 fi
 
-# Package the CloudFormation template
 echo "Packaging the CloudFormation template..."
 aws cloudformation package \
     --template-file "$TEMPLATE_FILE" \
     --s3-bucket "$BUCKET_NAME" \
     --output-template-file packaged-template-consumer.yaml
 
-# Deploy the CloudFormation stack
 echo "Deploying Lambda..."
 aws cloudformation deploy \
     --template-file packaged-template-consumer.yaml \

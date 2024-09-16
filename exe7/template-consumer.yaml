@@ -13,7 +13,7 @@ Resources:
       Timeout: 15
       Environment: 
         Variables:
-          BUCKET_NAME: teste-g5-lambda
+          BUCKET_NAME: teste-g5
           SQS_URL: https://sqs.us-east-1.amazonaws.com/924403880720/teste-g5
           OUTPUT_BUCKET_NAME: teste-g5-lambda
           OUTPUT_FILE_NAME: final/final.parquet
