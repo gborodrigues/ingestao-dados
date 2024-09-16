@@ -243,65 +243,63 @@ def process_sqs_messages(messages):
 
 def process_batch_and_delete(queue_url, output_bucket, output_key, batch_size=10):
     parquet_buffer = io.BytesIO()
-    while True:
-        messages = read_messages_from_sqs(queue_url, batch_size)
-        if not messages:
-            print("No more messages in SQS queue.")
-            break
+    messages = read_messages_from_sqs(queue_url, batch_size)
+    if not messages:
+        print("No more messages in SQS queue.")
 
-        reclamacoes_df = process_sqs_messages(messages)
-        
-        if 'Instituição financeira' in reclamacoes_df.columns:
-            reclamacoes_df = clean_string(reclamacoes_df, "Instituição financeira")
+    reclamacoes_df = process_sqs_messages(messages)
+    
+    if 'Instituição financeira' in reclamacoes_df.columns:
+        reclamacoes_df = clean_string(reclamacoes_df, "Instituição financeira")
 
 
-        response = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
-        instance = response['DBInstances'][0]
-        endpoint = instance['Endpoint']['Address']
-        port = instance['Endpoint']['Port']
+    response = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
+    instance = response['DBInstances'][0]
+    endpoint = instance['Endpoint']['Address']
+    port = instance['Endpoint']['Port']
 
-        engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{endpoint}:{port}/{db_config['database']}")
+    engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{endpoint}:{port}/{db_config['database']}")
 
 
-        bancos_from_db_df = pd.read_sql(f"SELECT * FROM {table_name};", engine)
+    bancos_from_db_df = pd.read_sql(f"SELECT * FROM {table_name};", engine)
 
-        if 'campo_limpo' in bancos_from_db_df.columns and 'campo_limpo' in reclamacoes_df.columns:
-            merged_df = pd.merge(bancos_from_db_df, reclamacoes_df, on="campo_limpo")
-        else:
-            merged_df = bancos_from_db_df.merge(reclamacoes_df)
+    if 'campo_limpo' in bancos_from_db_df.columns and 'campo_limpo' in reclamacoes_df.columns:
+        merged_df = pd.merge(bancos_from_db_df, reclamacoes_df, on="campo_limpo")
+    else:
+        merged_df = bancos_from_db_df.merge(reclamacoes_df)
 
-        merged_df.columns = [clean_column_name(col) for col in merged_df.columns]
-        
-        columns_to_drop = [col for col in merged_df.columns if col.endswith('_y') or col == 'Unnamed__14']
-        merged_df = merged_df.drop(columns=columns_to_drop, axis=1, errors='ignore')
-        merged_df.columns = merged_df.columns.str.replace('_x', '')
+    merged_df.columns = [clean_column_name(col) for col in merged_df.columns]
+    
+    columns_to_drop = [col for col in merged_df.columns if col.endswith('_y') or col == 'Unnamed__14']
+    merged_df = merged_df.drop(columns=columns_to_drop, axis=1, errors='ignore')
+    merged_df.columns = merged_df.columns.str.replace('_x', '')
 
-        for col in merged_df.columns:
-            merged_df[col] = merged_df[col].astype(str)
+    for col in merged_df.columns:
+        merged_df[col] = merged_df[col].astype(str)
 
-        print(f"Number of rows to be added to the Parquet file: {len(merged_df)}")
-        print(f"First few rows of the DataFrame:\n{merged_df.head()}")
+    print(f"Number of rows to be added to the Parquet file: {len(merged_df)}")
+    print(f"First few rows of the DataFrame:\n{merged_df.head()}")
 
-        if parquet_buffer.getvalue():
-            existing_df = pd.read_parquet(io.BytesIO(parquet_buffer.getvalue()))
-            merged_df = pd.concat([existing_df, merged_df], ignore_index=True)
-        
-        parquet_buffer = io.BytesIO()
-        merged_df.to_parquet(parquet_buffer, index=False)
-        parquet_buffer.seek(0)
-        
-        s3.put_object(Bucket=output_bucket, Key=output_key, Body=parquet_buffer.getvalue())
-        print("Data processing completed successfully.")
+    if parquet_buffer.getvalue():
+        existing_df = pd.read_parquet(io.BytesIO(parquet_buffer.getvalue()))
+        merged_df = pd.concat([existing_df, merged_df], ignore_index=True)
+    
+    parquet_buffer = io.BytesIO()
+    merged_df.to_parquet(parquet_buffer, index=False)
+    parquet_buffer.seek(0)
+    
+    s3.put_object(Bucket=output_bucket, Key=output_key, Body=parquet_buffer.getvalue())
+    print("Data processing completed successfully.")
 
-        receipt_handles = [msg['ReceiptHandle'] for msg in messages]
-        delete_messages_from_sqs(queue_url, receipt_handles)
+    receipt_handles = [msg['ReceiptHandle'] for msg in messages]
+    delete_messages_from_sqs(queue_url, receipt_handles)
 
-        remaining_messages_response = sqs.get_queue_attributes(
-            QueueUrl=queue_url,
-            AttributeNames=['ApproximateNumberOfMessages']
-        )
-        remaining_messages = int(remaining_messages_response['Attributes'].get('ApproximateNumberOfMessages', 0))
-        print(f"Number of messages remaining in the SQS queue: {remaining_messages}")
+    remaining_messages_response = sqs.get_queue_attributes(
+        QueueUrl=queue_url,
+        AttributeNames=['ApproximateNumberOfMessages']
+    )
+    remaining_messages = int(remaining_messages_response['Attributes'].get('ApproximateNumberOfMessages', 0))
+    print(f"Number of messages remaining in the SQS queue: {remaining_messages}")
 
 def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
     # Create security group and RDS instance
