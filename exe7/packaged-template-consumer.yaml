@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  RawLayer:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: consumer
+      Handler: script.handler
+      Runtime: python3.10
+      CodeUri: s3://teste-g5-lambda/b71a1fd03b61f8257aae1c0da7098227
+      MemorySize: 128
+      Role: arn:aws:iam::924403880720:role/LabRole
+      Timeout: 15
+      Environment:
+        Variables:
+          BUCKET_NAME: teste-g5-lambda
+          SQS_URL: https://sqs.us-east-1.amazonaws.com/924403880720/teste-g5
+          OUTPUT_BUCKET_NAME: teste-g5-lambda
+          OUTPUT_FILE_NAME: final/final.parquet
+          DB_USER: root
+          DB_PASSWORD: root1234567
+          DB_NAME: data_analysis2
+          DB_TABLE_NAME: aristoteles
+          DB_IDENTIFIER: teste-g5-exe7
+          SG_NAME: papaleguas
+          IAM: 924403880720
+      Events:
+        MySQSEvent:
+          Type: SQS
+          Properties:
+            Queue: arn:aws:sqs:us-east-1:924403880720:teste-g5
+            BatchSize: 10

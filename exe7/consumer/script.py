@@ -332,7 +332,7 @@ def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
 
     process_batch_and_delete(sqs_queue_url, output_bucket, output_key, batch_size=10)
 
-if __name__ == "__main__":
+def handler(event, _):  
     try:
         S3_BUCKET = os.getenv('BUCKET_NAME')
         BANCOS_FILE_KEY = 'Bancos/EnquadramentoInicia_v2.csv'
