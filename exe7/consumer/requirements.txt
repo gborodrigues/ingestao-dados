@@ -1,0 +1,8 @@
+pandas==2.0.3
+numpy==1.25.2
+mysql-connector-python==8.0.25
+boto3==1.26.50
+sqlalchemy==2.0.16
+python-dotenv==1.0.0
+fastparquet==2024.5.0
+
