@@ -71,19 +71,6 @@ def clean_column_name(name):
         name = ''.join(c if c.isalnum() or c == '_' else '_' for c in name)
     return name
 
-def insert_data(df, table_name, conn):
-    try:
-        cursor = conn.cursor()
-        columns = [clean_column_name(col) for col in df.columns]
-        insert_sql = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES ({', '.join(['%s'] * len(columns))})"
-        for idx, row in enumerate(df.itertuples(index=False, name=None)):
-            row = tuple(None if pd.isna(x) else x for x in row)
-            cursor.execute(insert_sql, row)
-        conn.commit()
-        logging.info(f"Data inserted successfully into {table_name}. {len(df)} rows inserted.")
-    except Exception as e:
-        logging.error(f"Error during data insertion: {e}")
-
 def read_messages_from_sqs(queue_url, batch_size=10):
     messages = []
     while len(messages) < batch_size:
