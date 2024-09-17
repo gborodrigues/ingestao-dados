@@ -232,13 +232,29 @@ def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
 
+def process_sqs_message(message_body, s3_bucket, bancos_file_key, output_bucket, output_key):
+    try:
+        SQS_QUEUE_URL = os.getenv('SQS_URL')
+        main(s3_bucket, bancos_file_key, SQS_QUEUE_URL, output_bucket, output_key)
+    except Exception as e:
+        logging.error(f"Error processing message: {message_body}. Error: {e}")
+
 def handler(event, _):
     try:
+        logging.info(f"SQS event: {json.dumps(event)}")
+
         S3_BUCKET = os.getenv('BUCKET_NAME')
         BANCOS_FILE_KEY = 'Bancos/EnquadramentoInicia_v2.csv'
-        SQS_QUEUE_URL = os.getenv('SQS_URL')
         OUTPUT_BUCKET = os.getenv('OUTPUT_BUCKET_NAME')
         OUTPUT_KEY = os.getenv('OUTPUT_FILE_NAME')
-        main(S3_BUCKET, BANCOS_FILE_KEY, SQS_QUEUE_URL, OUTPUT_BUCKET, OUTPUT_KEY)
+
+        for sqs_record in event['Records']:
+            message_body = json.loads(sqs_record['body'])
+
+            process_sqs_message(message_body, S3_BUCKET, BANCOS_FILE_KEY, OUTPUT_BUCKET, OUTPUT_KEY)
+
+        logging.info("SQS messages processed successfully :P")
+    
     except Exception as e:
-        logging.error(f"An unexpected error occurred: {e}")
+        logging.error(f"An error occurred while processing the SQS event: {e}")
+        raise e
