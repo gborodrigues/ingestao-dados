@@ -71,28 +71,6 @@ def clean_column_name(name):
         name = ''.join(c if c.isalnum() or c == '_' else '_' for c in name)
     return name
 
-def create_table(df, table_name, conn):
-    cursor = conn.cursor()
-    fields = ", ".join([f"{clean_column_name(col)} VARCHAR(255)" for col in df.columns])
-    create_table_sql = f"CREATE TABLE IF NOT EXISTS {table_name} ({fields});"
-    try:
-        cursor.execute(create_table_sql)
-        conn.commit()
-        logging.info(f"Table {table_name} created successfully.")
-    except mysql.connector.Error as err:
-        logging.error(f"Error creating table: {err}")
-
-def get_row_count(table_name, conn):
-    try:
-        cursor = conn.cursor()
-        cursor.execute(f"SELECT COUNT(*) FROM {table_name};")
-        row_count = cursor.fetchone()[0]
-        logging.info(f"Current row count in {table_name}: {row_count}")
-        return row_count
-    except Exception as e:
-        logging.error(f"Error getting row count: {e}")
-        return 0
-
 def insert_data(df, table_name, conn):
     try:
         cursor = conn.cursor()
@@ -207,7 +185,6 @@ def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
     logging.info("Starting main process")
     
     try:
-        conn = mysql.connector.connect(**db_config)
         logging.info("Database connection established.")
 
         bancos_df = read_csv_from_s3(s3_bucket, bancos_file_key)
@@ -216,15 +193,6 @@ def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
             bancos_df = clean_string(bancos_df, "Nome")
         else:
             logging.warning("Warning: 'Nome' column not found. Skipping string cleaning for Bancos data.")
-
-        row_count = get_row_count(table_name, conn)
-        if row_count != 1474:
-            if bancos_df is not None:
-                logging.info(f"Columns in the DataFrame: {bancos_df.columns.tolist()}")
-                create_table(bancos_df, table_name, conn)
-                insert_data(bancos_df, table_name, conn)
-        else:
-            logging.info("Table already contains 1474 rows. Skipping table creation and data insertion.")
 
         process_batch_and_delete(sqs_queue_url, output_bucket, output_key, batch_size=10)
     except mysql.connector.Error as err:
