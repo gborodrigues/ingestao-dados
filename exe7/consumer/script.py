@@ -8,121 +8,26 @@ from io import StringIO
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import os
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.DEBUG)
 
 s3 = boto3.client('s3')
 sqs = boto3.client('sqs')
-ec2 = boto3.client('ec2')
 rds = boto3.client('rds')
-
 
 load_dotenv()
 
 db_config = {
-    'user':  os.getenv('DB_USER'),
-    'password':  os.getenv('DB_PASSWORD'),
-    'database':  os.getenv('DB_NAME')
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'database': os.getenv('DB_NAME'),
+    'host': 'mydb-instance.cbl0obhtfsdl.us-east-1.rds.amazonaws.com'
 }
 
 table_name = os.getenv('DB_TABLE_NAME')
 db_instance_identifier = os.getenv('DB_IDENTIFIER')
-
-def create_security_group():
-    try:
-        response = ec2.describe_security_groups(Filters=[
-            {'Name': 'group-name', 'Values': [os.getenv('SG_NAME')]}
-        ])
-        
-        if response['SecurityGroups']:
-            security_group_id = response['SecurityGroups'][0]['GroupId']
-            print(f"Security Group already exists: {security_group_id}")
-            return security_group_id
-        
-        response = ec2.create_security_group(
-            GroupName=os.getenv('SG_NAME'),
-            Description='Security group for MySQL RDS instance'
-        )
-        security_group_id = response['GroupId']
-        
-        ec2.authorize_security_group_ingress(
-            GroupId=security_group_id,
-            IpPermissions=[
-                {
-                    'IpProtocol': 'tcp',
-                    'FromPort': 3306,
-                    'ToPort': 3306,
-                    'IpRanges': [{'CidrIp': '0.0.0.0/0'}]
-                }
-            ]
-        )
-        print(f"Security Group created and configured: {security_group_id}")
-        return security_group_id
-    
-    except Exception as e:
-        print(f"Error creating security group: {e}")
-        raise
-
-def create_rds_instance(security_group_id):
-    try:
-        response = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
-        
-        # Check if the response contains DBInstances
-        if 'DBInstances' not in response:
-            raise KeyError("Response does not contain 'DBInstances' key")
-
-        if response['DBInstances']:
-            instance = response['DBInstances'][0]
-            # Ensure 'Endpoint' key exists in the instance
-            if 'Endpoint' not in instance:
-                raise KeyError("Instance does not contain 'Endpoint' key")
-
-            endpoint = instance['Endpoint']['Address']
-            port = instance['Endpoint']['Port']
-            print(f"Using existing RDS instance: {db_instance_identifier}")
-            print(f"RDS instance endpoint: {endpoint}:{port}")
-            return endpoint, port
-
-        response = rds.create_db_instance(
-            DBInstanceIdentifier=db_instance_identifier,
-            AllocatedStorage=20,
-            DBName=db_config['database'],
-            Engine='mysql',
-            MasterUsername=db_config['user'],
-            MasterUserPassword=db_config['password'],
-            DBInstanceClass='db.t3.micro',
-            VpcSecurityGroupIds=[security_group_id],
-            AvailabilityZone='us-east-1a',
-            MultiAZ=False,
-            PubliclyAccessible=True,
-            StorageType='gp2'
-        )
-        print(f"RDS instance creation initiated: {response['DBInstance']['DBInstanceIdentifier']}")
-        
-        waiter = rds.get_waiter('db_instance_available')
-        waiter.wait(DBInstanceIdentifier=db_instance_identifier)
-        
-        instance_info = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
-        
-        # Ensure 'DBInstances' and 'Endpoint' keys exist
-        if 'DBInstances' not in instance_info or len(instance_info['DBInstances']) == 0:
-            raise KeyError("Instance information is missing or empty")
-        
-        instance = instance_info['DBInstances'][0]
-        if 'Endpoint' not in instance:
-            raise KeyError("Instance does not contain 'Endpoint' key")
-
-        endpoint = instance['Endpoint']['Address']
-        port = instance['Endpoint']['Port']
-        print(f"RDS instance endpoint: {endpoint}:{port}")
-        return endpoint, port
-    
-    except KeyError as e:
-        print(f"KeyError: {e}")
-        raise
-    except Exception as e:
-        print(f"Error handling RDS instance: {e}")
-        raise
-
-
 
 def read_csv_from_s3(bucket_name, file_key):
     response = s3.get_object(Bucket=bucket_name, Key=file_key)
@@ -131,7 +36,7 @@ def read_csv_from_s3(bucket_name, file_key):
         df = pd.read_csv(StringIO(content), sep='\t', on_bad_lines='skip')
         return df
     except Exception as e:
-        print(f"Error reading CSV from S3: {e}")
+        logging.error(f"Error reading CSV from S3: {e}")
         return None
 
 def clean_string(df, field):
@@ -174,19 +79,19 @@ def create_table(df, table_name, conn):
     try:
         cursor.execute(create_table_sql)
         conn.commit()
-        print(f"Table {table_name} created successfully.")
+        logging.info(f"Table {table_name} created successfully.")
     except mysql.connector.Error as err:
-        print(f"Error creating table: {err}")
+        logging.error(f"Error creating table: {err}")
 
 def get_row_count(table_name, conn):
     try:
         cursor = conn.cursor()
         cursor.execute(f"SELECT COUNT(*) FROM {table_name};")
         row_count = cursor.fetchone()[0]
-        print(f"Current row count in {table_name}: {row_count}")
+        logging.info(f"Current row count in {table_name}: {row_count}")
         return row_count
     except Exception as e:
-        print(f"Error getting row count: {e}")
+        logging.error(f"Error getting row count: {e}")
         return 0
 
 def insert_data(df, table_name, conn):
@@ -194,15 +99,15 @@ def insert_data(df, table_name, conn):
         cursor = conn.cursor()
         columns = [clean_column_name(col) for col in df.columns]
         insert_sql = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES ({', '.join(['%s'] * len(columns))})"
-        print(f"Insert SQL: {insert_sql}")
+        logging.info(f"Insert SQL: {insert_sql}")
         for idx, row in enumerate(df.itertuples(index=False, name=None)):
             row = tuple(None if pd.isna(x) else x for x in row)
-            print(f"Inserting row {idx + 1}: {row}")
+            logging.info(f"Inserting row {idx + 1}: {row}")
             cursor.execute(insert_sql, row)
         conn.commit()
-        print(f"Data inserted successfully into {table_name}. {len(df)} rows inserted.")
+        logging.info(f"Data inserted successfully into {table_name}. {len(df)} rows inserted.")
     except Exception as e:
-        print(f"Error during data insertion: {e}")
+        logging.error(f"Error during data insertion: {e}")
 
 def read_messages_from_sqs(queue_url, batch_size=10):
     messages = []
@@ -223,13 +128,13 @@ def delete_messages_from_sqs(queue_url, receipt_handles):
         entries = [{'Id': str(i), 'ReceiptHandle': handle} for i, handle in enumerate(receipt_handles)]
         response = sqs.delete_message_batch(QueueUrl=queue_url, Entries=entries)
         if 'Failed' in response and response['Failed']:
-            print(f"Failed to delete {len(response['Failed'])} messages from SQS.")
+            logging.error(f"Failed to delete {len(response['Failed'])} messages from SQS.")
             for failure in response['Failed']:
-                print(f"Failed to delete message: {failure}")
+                logging.error(f"Failed to delete message: {failure}")
         else:
-            print(f"Deleted {len(receipt_handles)} messages from SQS.")
+            logging.info(f"Deleted {len(receipt_handles)} messages from SQS.")
     except Exception as e:
-        print(f"Error deleting messages from SQS: {e}")
+        logging.error(f"Error deleting messages from SQS: {e}")
 
 def process_sqs_messages(messages):
     data = []
@@ -243,92 +148,93 @@ def process_sqs_messages(messages):
 
 def process_batch_and_delete(queue_url, output_bucket, output_key, batch_size=10):
     parquet_buffer = io.BytesIO()
-    messages = read_messages_from_sqs(queue_url, batch_size)
-    if not messages:
-        print("No more messages in SQS queue.")
+    while True:
+        messages = read_messages_from_sqs(queue_url, batch_size)
+        if not messages:
+            logging.info("No more messages in SQS queue.")
+            break
 
-    reclamacoes_df = process_sqs_messages(messages)
-    
-    if 'Instituição financeira' in reclamacoes_df.columns:
-        reclamacoes_df = clean_string(reclamacoes_df, "Instituição financeira")
+        reclamacoes_df = process_sqs_messages(messages)
+        
+        if 'Instituição financeira' in reclamacoes_df.columns:
+            reclamacoes_df = clean_string(reclamacoes_df, "Instituição financeira")
 
+        response = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
+        instance = response['DBInstances'][0]
+        endpoint = instance['Endpoint']['Address']
+        port = instance['Endpoint']['Port']
 
-    response = rds.describe_db_instances(DBInstanceIdentifier=db_instance_identifier)
-    instance = response['DBInstances'][0]
-    endpoint = instance['Endpoint']['Address']
-    port = instance['Endpoint']['Port']
+        logging.info(f"Connecting to RDS instance at {endpoint}:{port}")
+        engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{endpoint}:{port}/{db_config['database']}")
 
-    engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{endpoint}:{port}/{db_config['database']}")
+        bancos_from_db_df = pd.read_sql(f"SELECT * FROM {table_name};", engine)
 
+        if 'campo_limpo' in bancos_from_db_df.columns and 'campo_limpo' in reclamacoes_df.columns:
+            merged_df = pd.merge(bancos_from_db_df, reclamacoes_df, on="campo_limpo")
+        else:
+            merged_df = bancos_from_db_df.merge(reclamacoes_df)
 
-    bancos_from_db_df = pd.read_sql(f"SELECT * FROM {table_name};", engine)
+        merged_df.columns = [clean_column_name(col) for col in merged_df.columns]
+        
+        columns_to_drop = [col for col in merged_df.columns if col.endswith('_y') or col == 'Unnamed__14']
+        merged_df = merged_df.drop(columns=columns_to_drop, axis=1, errors='ignore')
+        merged_df.columns = merged_df.columns.str.replace('_x', '')
 
-    if 'campo_limpo' in bancos_from_db_df.columns and 'campo_limpo' in reclamacoes_df.columns:
-        merged_df = pd.merge(bancos_from_db_df, reclamacoes_df, on="campo_limpo")
-    else:
-        merged_df = bancos_from_db_df.merge(reclamacoes_df)
+        for col in merged_df.columns:
+            merged_df[col] = merged_df[col].astype(str)
 
-    merged_df.columns = [clean_column_name(col) for col in merged_df.columns]
-    
-    columns_to_drop = [col for col in merged_df.columns if col.endswith('_y') or col == 'Unnamed__14']
-    merged_df = merged_df.drop(columns=columns_to_drop, axis=1, errors='ignore')
-    merged_df.columns = merged_df.columns.str.replace('_x', '')
+        logging.info(f"Number of rows to be added to the Parquet file: {len(merged_df)}")
+        logging.info(f"First few rows of the DataFrame:\n{merged_df.head()}")
 
-    for col in merged_df.columns:
-        merged_df[col] = merged_df[col].astype(str)
+        if parquet_buffer.getvalue():
+            existing_df = pd.read_parquet(io.BytesIO(parquet_buffer.getvalue()))
+            merged_df = pd.concat([existing_df, merged_df], ignore_index=True)
+        
+        parquet_buffer = io.BytesIO()
+        merged_df.to_parquet(parquet_buffer, index=False)
+        parquet_buffer.seek(0)
+        
+        s3.put_object(Bucket=output_bucket, Key=output_key, Body=parquet_buffer.getvalue())
+        logging.info("Data processing completed successfully.")
 
-    print(f"Number of rows to be added to the Parquet file: {len(merged_df)}")
-    print(f"First few rows of the DataFrame:\n{merged_df.head()}")
+        receipt_handles = [msg['ReceiptHandle'] for msg in messages]
+        delete_messages_from_sqs(queue_url, receipt_handles)
 
-    if parquet_buffer.getvalue():
-        existing_df = pd.read_parquet(io.BytesIO(parquet_buffer.getvalue()))
-        merged_df = pd.concat([existing_df, merged_df], ignore_index=True)
-    
-    parquet_buffer = io.BytesIO()
-    merged_df.to_parquet(parquet_buffer, index=False)
-    parquet_buffer.seek(0)
-    
-    s3.put_object(Bucket=output_bucket, Key=output_key, Body=parquet_buffer.getvalue())
-    print("Data processing completed successfully.")
-
-    receipt_handles = [msg['ReceiptHandle'] for msg in messages]
-    delete_messages_from_sqs(queue_url, receipt_handles)
-
-    remaining_messages_response = sqs.get_queue_attributes(
-        QueueUrl=queue_url,
-        AttributeNames=['ApproximateNumberOfMessages']
-    )
-    remaining_messages = int(remaining_messages_response['Attributes'].get('ApproximateNumberOfMessages', 0))
-    print(f"Number of messages remaining in the SQS queue: {remaining_messages}")
+        remaining_messages_response = sqs.get_queue_attributes(
+            QueueUrl=queue_url,
+            AttributeNames=['ApproximateNumberOfMessages']
+        )
+        remaining_messages = int(remaining_messages_response['Attributes'].get('ApproximateNumberOfMessages', 0))
+        logging.info(f"Number of messages remaining in the SQS queue: {remaining_messages}")
 
 def main(s3_bucket, bancos_file_key, sqs_queue_url, output_bucket, output_key):
-    # Create security group and RDS instance
-    security_group_id = create_security_group()
-    endpoint, port = create_rds_instance(security_group_id)
+    logging.info("Starting main process")
     
-    # Update DB config with new RDS endpoint
-    db_config['host'] = endpoint
-    
-    conn = mysql.connector.connect(**db_config)
-    engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{db_config['host']}:{port}/{db_config['database']}")
-    
-    bancos_df = read_csv_from_s3(s3_bucket, bancos_file_key)
-    
-    if bancos_df is not None and 'Nome' in bancos_df.columns:
-        bancos_df = clean_string(bancos_df, "Nome")
-    else:
-        print("Warning: 'Nome' column not found. Skipping string cleaning for Bancos data.")
+    try:
+        conn = mysql.connector.connect(**db_config)
+        logging.info("Database connection established.")
 
-    row_count = get_row_count(table_name, conn)
-    if row_count != 1474:
-        if bancos_df is not None:
-            print(f"Columns in the DataFrame: {bancos_df.columns.tolist()}")
-            create_table(bancos_df, table_name, conn)
-            insert_data(bancos_df, table_name, conn)
-    else:
-        print("Table already contains 1474 rows. Skipping table creation and data insertion.")
+        bancos_df = read_csv_from_s3(s3_bucket, bancos_file_key)
+        
+        if bancos_df is not None and 'Nome' in bancos_df.columns:
+            bancos_df = clean_string(bancos_df, "Nome")
+        else:
+            logging.warning("Warning: 'Nome' column not found. Skipping string cleaning for Bancos data.")
 
-    process_batch_and_delete(sqs_queue_url, output_bucket, output_key, batch_size=10)
+        row_count = get_row_count(table_name, conn)
+        if row_count != 1474:
+            if bancos_df is not None:
+                logging.info(f"Columns in the DataFrame: {bancos_df.columns.tolist()}")
+                create_table(bancos_df, table_name, conn)
+                insert_data(bancos_df, table_name, conn)
+        else:
+            logging.info("Table already contains 1474 rows. Skipping table creation and data insertion.")
+
+        process_batch_and_delete(sqs_queue_url, output_bucket, output_key, batch_size=10)
+    except mysql.connector.Error as err:
+        logging.error(f"Database error: {err}")
+    except Exception as e:
+        logging.error(f"An unexpected error occurred: {e}")
 
 def handler(event, _):  
     try:
@@ -339,4 +245,4 @@ def handler(event, _):
         OUTPUT_KEY = os.getenv('OUTPUT_FILE_NAME')
         main(S3_BUCKET, BANCOS_FILE_KEY, SQS_QUEUE_URL, OUTPUT_BUCKET, OUTPUT_KEY)
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        logging.error(f"An unexpected error occurred: {e}")
