@@ -66,12 +66,19 @@ schema = StructType([
     StructField("campo_limpo", StringType(), True),
 ])
 
+schemaBanks = StructType([
+    StructField("Segmento", StringType(), True),
+    StructField("CNPJ", StringType(), True),
+    StructField("Nome", StringType(), True),
+    StructField("campo_limpo", StringType(), True)
+])
+
+ # mudar maxOffsetsPerTrigger para alterar tamanho batch
 df = spark.readStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", kafka_bootstrap_servers) \
     .option("subscribe", kafka_topic) \
     .option("startingOffsets", "earliest") \
-    .option("maxOffsetsPerTrigger", 1) \
     .load()
 
 df_parsed = df \
@@ -91,11 +98,11 @@ def process_batch(df, epoch_id):
         for row in df_cleaned.collect():
             instituicao = row['campo_limpo']
             
-            cursor.execute(f"SELECT campo_limpo FROM Bancos WHERE campo_limpo = %s", (instituicao,))
+            cursor.execute("SELECT * FROM Bancos WHERE campo_limpo = %s", (instituicao,))
             result = cursor.fetchone()
             
             if result:
-                campo_limpo = result[0]
+                campo_limpo = result
                 logger.info(f"Matched institution: {instituicao}, Campo_Limpo: {campo_limpo}")
                 
                 row_dict = row.asDict()
@@ -105,16 +112,32 @@ def process_batch(df, epoch_id):
                 logger.warning(f"No match found for institution: {instituicao}")
 
         if processed_rows:
-
             logger.info(f"Processed rows: {processed_rows}")
 
             processed_df = spark.createDataFrame(processed_rows, schema)
 
+            bank_rows = []
+            for row in processed_rows:
+                cursor.execute("SELECT Segmento, CNPJ, Nome, campo_limpo FROM Bancos WHERE campo_limpo = %s", (row['campo_limpo'],))
+                bank_result = cursor.fetchone()
+                if bank_result:
+                    bank_rows.append({
+                        "Segmento": bank_result[0],
+                        "CNPJ": bank_result[1],
+                        "Nome": bank_result[2],
+                        "campo_limpo": bank_result[3]
+                    })
+
+            bankDf = spark.createDataFrame(bank_rows, schemaBanks)
+
+            merge_all = bankDf.join(processed_df, on="campo_limpo", how="inner")
+            merge_all = merge_all.dropDuplicates()
+
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"dados_processados_{timestamp}_{epoch_id}.parquet"
             
-            output_path = os.path.join("/opt/bitnami/spark/dados_processados3", filename)
-            processed_df.write \
+            output_path = os.path.join("/opt/bitnami/spark/dados_processados6", filename)
+            merge_all.write \
                 .mode("append") \
                 .parquet(output_path)
 
