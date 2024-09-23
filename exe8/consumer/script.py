@@ -66,6 +66,8 @@ schema = StructType([
     StructField("campo_limpo", StringType(), True),
 ])
 
+
+#.option("maxOffsetsPerTrigger", 1)
 df = spark.readStream \
     .format("kafka") \
     .option("kafka.bootstrap.servers", kafka_bootstrap_servers) \
