@@ -23,7 +23,7 @@ def read_csv_files_in_directory(directory_path):
         return pd.DataFrame()
 
 def read_files():
-    directory = 'Reclamacoes/'
+    directory = 'Reclamacoes2/'
     dataframe = read_csv_files_in_directory(directory)
     return dataframe
 
